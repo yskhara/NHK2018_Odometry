@@ -74,7 +74,7 @@ class STM32Hardware {
         baud_ = 57600;
         //USART1_Wrapper = new SERIAL_CLASS(baud_);
         __NOP();
-        com = (SERIAL_CLASS *)Uart::Uart1;
+        com = (SERIAL_CLASS * const)Uart::Uart1;
 
         initUSART1();
     }

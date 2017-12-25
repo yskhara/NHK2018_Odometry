@@ -165,7 +165,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/misc.o
  .debug_macro   0x0000000000000000       0x85 ./system/src/stm32f1-stdperiph/misc.o
  .debug_line    0x0000000000000000      0x40c ./system/src/stm32f1-stdperiph/misc.o
- .debug_str     0x0000000000000000    0x4e262 ./system/src/stm32f1-stdperiph/misc.o
+ .debug_str     0x0000000000000000    0x4e254 ./system/src/stm32f1-stdperiph/misc.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/misc.o
  .debug_frame   0x0000000000000000       0x90 ./system/src/stm32f1-stdperiph/misc.o
  .ARM.attributes
@@ -314,7 +314,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .debug_macro   0x0000000000000000      0x2e4 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .debug_line    0x0000000000000000      0xab3 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
- .debug_str     0x0000000000000000    0x4ebbc ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
+ .debug_str     0x0000000000000000    0x4ebae ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .debug_frame   0x0000000000000000      0x3d8 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .ARM.attributes
@@ -416,7 +416,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
  .debug_macro   0x0000000000000000      0x13e ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
  .debug_line    0x0000000000000000      0x601 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
- .debug_str     0x0000000000000000    0x4e697 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
+ .debug_str     0x0000000000000000    0x4e689 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
  .debug_frame   0x0000000000000000      0x120 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
  .ARM.attributes
@@ -544,7 +544,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
  .debug_macro   0x0000000000000000      0x3c9 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
  .debug_line    0x0000000000000000      0xa54 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
- .debug_str     0x0000000000000000    0x4e7a0 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
+ .debug_str     0x0000000000000000    0x4e792 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_can.o
  .debug_frame   0x0000000000000000      0x29c ./system/src/stm32f1-stdperiph/stm32f10x_can.o
  .ARM.attributes
@@ -649,7 +649,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
  .debug_macro   0x0000000000000000       0xc2 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
  .debug_line    0x0000000000000000      0x517 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
- .debug_str     0x0000000000000000    0x4e408 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
+ .debug_str     0x0000000000000000    0x4e3fa ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
  .debug_frame   0x0000000000000000      0x148 ./system/src/stm32f1-stdperiph/stm32f10x_cec.o
  .ARM.attributes
@@ -737,7 +737,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
  .debug_line    0x0000000000000000      0x3ba ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
- .debug_str     0x0000000000000000    0x4e09c ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
+ .debug_str     0x0000000000000000    0x4e08e ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
  .debug_frame   0x0000000000000000       0x7c ./system/src/stm32f1-stdperiph/stm32f10x_crc.o
  .ARM.attributes
@@ -838,7 +838,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
  .debug_macro   0x0000000000000000      0x174 ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
  .debug_line    0x0000000000000000      0x58b ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
- .debug_str     0x0000000000000000    0x4e33e ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
+ .debug_str     0x0000000000000000    0x4e330 ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
  .debug_frame   0x0000000000000000      0x160 ./system/src/stm32f1-stdperiph/stm32f10x_dac.o
  .ARM.attributes
@@ -922,7 +922,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
  .debug_macro   0x0000000000000000       0xa6 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
  .debug_line    0x0000000000000000      0x390 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
- .debug_str     0x0000000000000000    0x4e0a7 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
+ .debug_str     0x0000000000000000    0x4e099 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
  .debug_frame   0x0000000000000000       0x4c ./system/src/stm32f1-stdperiph/stm32f10x_dbgmcu.o
  .ARM.attributes
@@ -1021,7 +1021,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
  .debug_macro   0x0000000000000000      0x3a7 ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
  .debug_line    0x0000000000000000      0x86f ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
- .debug_str     0x0000000000000000    0x4e70b ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
+ .debug_str     0x0000000000000000    0x4e6fd ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
  .debug_frame   0x0000000000000000      0x120 ./system/src/stm32f1-stdperiph/stm32f10x_dma.o
  .ARM.attributes
@@ -1115,7 +1115,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_macro   0x0000000000000000       0x97 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_line    0x0000000000000000      0x513 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
- .debug_str     0x0000000000000000    0x4e200 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
+ .debug_str     0x0000000000000000    0x4e1f2 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_frame   0x0000000000000000       0xc0 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .ARM.attributes
@@ -1249,7 +1249,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_macro   0x0000000000000000      0x2c9 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_line    0x0000000000000000      0x6f5 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
- .debug_str     0x0000000000000000    0x4e83b ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
+ .debug_str     0x0000000000000000    0x4e82d ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_frame   0x0000000000000000      0x288 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .ARM.attributes
@@ -1365,7 +1365,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
  .debug_macro   0x0000000000000000      0x273 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
  .debug_line    0x0000000000000000      0x8f5 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
- .debug_str     0x0000000000000000    0x4e730 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
+ .debug_str     0x0000000000000000    0x4e722 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
  .debug_frame   0x0000000000000000      0x1e0 ./system/src/stm32f1-stdperiph/stm32f10x_fsmc.o
  .ARM.attributes
@@ -1600,7 +1600,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
  .debug_macro   0x0000000000000000      0x2ae ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
  .debug_line    0x0000000000000000      0xa09 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
- .debug_str     0x0000000000000000    0x4e994 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
+ .debug_str     0x0000000000000000    0x4e986 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
  .debug_frame   0x0000000000000000      0x3a8 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
  .ARM.attributes
@@ -1690,7 +1690,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
  .debug_macro   0x0000000000000000       0x5e ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
  .debug_line    0x0000000000000000      0x3ce ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
- .debug_str     0x0000000000000000    0x4e10d ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
+ .debug_str     0x0000000000000000    0x4e0ff ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
  .debug_frame   0x0000000000000000       0x90 ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
  .ARM.attributes
@@ -1786,7 +1786,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
  .debug_macro   0x0000000000000000       0x7c ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
  .debug_line    0x0000000000000000      0x46a ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
- .debug_str     0x0000000000000000    0x4e35b ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
+ .debug_str     0x0000000000000000    0x4e34d ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
  .debug_frame   0x0000000000000000       0xe4 ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
  .ARM.attributes
@@ -2012,7 +2012,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
  .debug_macro   0x0000000000000000       0x52 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
  .debug_line    0x0000000000000000      0x4be ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
- .debug_str     0x0000000000000000    0x4e25a ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
+ .debug_str     0x0000000000000000    0x4e24c ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
  .debug_frame   0x0000000000000000      0x134 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
  .ARM.attributes
@@ -2150,7 +2150,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
  .debug_macro   0x0000000000000000      0x33e ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
  .debug_line    0x0000000000000000      0x808 ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
- .debug_str     0x0000000000000000    0x4e9fb ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
+ .debug_str     0x0000000000000000    0x4e9ed ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
  .debug_frame   0x0000000000000000      0x29c ./system/src/stm32f1-stdperiph/stm32f10x_sdio.o
  .ARM.attributes
@@ -2689,7 +2689,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
  .debug_macro   0x0000000000000000       0x2e ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
  .debug_line    0x0000000000000000      0x3fd ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
- .debug_str     0x0000000000000000    0x4e211 ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
+ .debug_str     0x0000000000000000    0x4e203 ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
  .comment       0x0000000000000000       0x80 ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
  .debug_frame   0x0000000000000000       0xc0 ./system/src/stm32f1-stdperiph/stm32f10x_wwdg.o
  .ARM.attributes
@@ -2780,7 +2780,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./system/src/newlib/_cxx.o
  .debug_macro   0x0000000000000000      0x51a ./system/src/newlib/_cxx.o
  .debug_line    0x0000000000000000      0x465 ./system/src/newlib/_cxx.o
- .debug_str     0x0000000000000000     0x9042 ./system/src/newlib/_cxx.o
+ .debug_str     0x0000000000000000     0x9034 ./system/src/newlib/_cxx.o
  .comment       0x0000000000000000       0x80 ./system/src/newlib/_cxx.o
  .debug_frame   0x0000000000000000       0x40 ./system/src/newlib/_cxx.o
  .ARM.attributes
@@ -3388,7 +3388,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b ./system/src/cortexm/_reset_hardware.o
  .debug_macro   0x0000000000000000       0x35 ./system/src/cortexm/_reset_hardware.o
  .debug_line    0x0000000000000000      0x370 ./system/src/cortexm/_reset_hardware.o
- .debug_str     0x0000000000000000    0x4e090 ./system/src/cortexm/_reset_hardware.o
+ .debug_str     0x0000000000000000    0x4e082 ./system/src/cortexm/_reset_hardware.o
  .comment       0x0000000000000000       0x80 ./system/src/cortexm/_reset_hardware.o
  .debug_frame   0x0000000000000000       0x20 ./system/src/cortexm/_reset_hardware.o
  .ARM.attributes
@@ -3639,7 +3639,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x3d3 ./src/ros_lib/duration.o
  .debug_macro   0x0000000000000000      0x34e ./src/ros_lib/duration.o
  .debug_line    0x0000000000000000      0x4d4 ./src/ros_lib/duration.o
- .debug_str     0x0000000000000000     0x8af1 ./src/ros_lib/duration.o
+ .debug_str     0x0000000000000000     0x8ae3 ./src/ros_lib/duration.o
  .comment       0x0000000000000000       0x80 ./src/ros_lib/duration.o
  .debug_frame   0x0000000000000000       0x78 ./src/ros_lib/duration.o
  .ARM.attributes
@@ -3770,7 +3770,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x35 ./src/BlinkLed.o
  .debug_macro   0x0000000000000000       0x28 ./src/BlinkLed.o
  .debug_line    0x0000000000000000      0x351 ./src/BlinkLed.o
- .debug_str     0x0000000000000000    0x4e628 ./src/BlinkLed.o
+ .debug_str     0x0000000000000000    0x4e61a ./src/BlinkLed.o
  .comment       0x0000000000000000       0x80 ./src/BlinkLed.o
  .debug_frame   0x0000000000000000       0x30 ./src/BlinkLed.o
  .ARM.attributes
@@ -4093,7 +4093,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x11 ./src/_write.o
  .debug_macro   0x0000000000000000      0x8c8 ./src/_write.o
  .debug_line    0x0000000000000000       0x30 ./src/_write.o
- .debug_str     0x0000000000000000     0x25bc ./src/_write.o
+ .debug_str     0x0000000000000000     0x25ae ./src/_write.o
  .comment       0x0000000000000000       0x80 ./src/_write.o
  .ARM.attributes
                 0x0000000000000000       0x33 ./src/_write.o
@@ -4893,45 +4893,43 @@ END GROUP
  .text._ZN13geometry_msgs11PoseStamped6getMD5Ev
                 0x0000000008001ec8        0x8 ./src/main.o
                 0x0000000008001ec8                geometry_msgs::PoseStamped::getMD5()
- .text._Z41__static_initialization_and_destruction_0ii
-                0x0000000008001ed0      0x144 ./src/main.o
  .text._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE9connectedEv
-                0x0000000008002014        0x6 ./src/main.o
-                0x0000000008002014                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::connected()
+                0x0000000008001ed0        0x6 ./src/main.o
+                0x0000000008001ed0                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::connected()
  .text._ZNK14rosserial_msgs9TopicInfo9serializeEPh
-                0x000000000800201a       0xaa ./src/main.o
-                0x000000000800201a                rosserial_msgs::TopicInfo::serialize(unsigned char*) const
+                0x0000000008001ed6       0xaa ./src/main.o
+                0x0000000008001ed6                rosserial_msgs::TopicInfo::serialize(unsigned char*) const
  .text._ZNK14rosserial_msgs3Log9serializeEPh
-                0x00000000080020c4       0x34 ./src/main.o
-                0x00000000080020c4                rosserial_msgs::Log::serialize(unsigned char*) const
+                0x0000000008001f80       0x34 ./src/main.o
+                0x0000000008001f80                rosserial_msgs::Log::serialize(unsigned char*) const
  .text._ZNK14rosserial_msgs20RequestParamResponse9serializeEPh
-                0x00000000080020f8       0xf0 ./src/main.o
-                0x00000000080020f8                rosserial_msgs::RequestParamResponse::serialize(unsigned char*) const
+                0x0000000008001fb4       0xf0 ./src/main.o
+                0x0000000008001fb4                rosserial_msgs::RequestParamResponse::serialize(unsigned char*) const
  .text._ZNK8std_msgs6Header9serializeEPh
-                0x00000000080021e8       0x66 ./src/main.o
-                0x00000000080021e8                std_msgs::Header::serialize(unsigned char*) const
+                0x00000000080020a4       0x66 ./src/main.o
+                0x00000000080020a4                std_msgs::Header::serialize(unsigned char*) const
  .text._ZN14rosserial_msgs20RequestParamResponse11deserializeEPh
-                0x000000000800224e      0x172 ./src/main.o
-                0x000000000800224e                rosserial_msgs::RequestParamResponse::deserialize(unsigned char*)
+                0x000000000800210a      0x172 ./src/main.o
+                0x000000000800210a                rosserial_msgs::RequestParamResponse::deserialize(unsigned char*)
+ .text._ZN12_GLOBAL__N_110initUSART1Ev
+                0x000000000800227c       0xa4 ./src/main.o
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x0000000008002320      0x148 ./src/main.o
  .text._ZNK13geometry_msgs4Pose9serializeEPh
-                0x00000000080023c0      0x124 ./src/main.o
-                0x00000000080023c0                geometry_msgs::Pose::serialize(unsigned char*) const
+                0x0000000008002468      0x124 ./src/main.o
+                0x0000000008002468                geometry_msgs::Pose::serialize(unsigned char*) const
  .text._ZNK13geometry_msgs11PoseStamped9serializeEPh
-                0x00000000080024e4      0x18a ./src/main.o
-                0x00000000080024e4                geometry_msgs::PoseStamped::serialize(unsigned char*) const
+                0x000000000800258c      0x18a ./src/main.o
+                0x000000000800258c                geometry_msgs::PoseStamped::serialize(unsigned char*) const
  .text._ZN13geometry_msgs11PoseStamped11deserializeEPh
-                0x000000000800266e      0x3b4 ./src/main.o
-                0x000000000800266e                geometry_msgs::PoseStamped::deserialize(unsigned char*)
+                0x0000000008002716      0x3b4 ./src/main.o
+                0x0000000008002716                geometry_msgs::PoseStamped::deserialize(unsigned char*)
  .text._ZN13geometry_msgs4Pose11deserializeEPh
-                0x0000000008002a22      0x2ae ./src/main.o
-                0x0000000008002a22                geometry_msgs::Pose::deserialize(unsigned char*)
- .text._Z12InitHardwarev
-                0x0000000008002cd0       0xa4 ./src/main.o
-                0x0000000008002cd0                InitHardware()
+                0x0000000008002aca      0x2ae ./src/main.o
+                0x0000000008002aca                geometry_msgs::Pose::deserialize(unsigned char*)
  .text._Z8InitGyrov
-                0x0000000008002d74       0xb8 ./src/main.o
-                0x0000000008002d74                InitGyro()
- *fill*         0x0000000008002e2c        0x4 
+                0x0000000008002d78       0xb8 ./src/main.o
+                0x0000000008002d78                InitGyro()
  .text._Z12ReadEncodersv
                 0x0000000008002e30      0x110 ./src/main.o
                 0x0000000008002e30                ReadEncoders()
@@ -5665,7 +5663,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x18f57
+.debug_info     0x0000000000000000    0x18f86
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xbd6 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_info    0x0000000000000bd6      0xc7b ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5688,9 +5686,9 @@ END GROUP
  .debug_info    0x000000000000edfc      0x853 ./src/MPU9250.o
  .debug_info    0x000000000000f64f      0x1c6 ./src/Timer.o
  .debug_info    0x000000000000f815      0x6f3 ./src/UartWithBuffer.o
- .debug_info    0x000000000000ff08     0x904f ./src/main.o
+ .debug_info    0x000000000000ff08     0x907e ./src/main.o
 
-.debug_abbrev   0x0000000000000000     0x357b
+.debug_abbrev   0x0000000000000000     0x354e
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x205 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_abbrev  0x0000000000000205      0x209 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5713,9 +5711,9 @@ END GROUP
  .debug_abbrev  0x000000000000230c      0x294 ./src/MPU9250.o
  .debug_abbrev  0x00000000000025a0      0x192 ./src/Timer.o
  .debug_abbrev  0x0000000000002732      0x29c ./src/UartWithBuffer.o
- .debug_abbrev  0x00000000000029ce      0xbad ./src/main.o
+ .debug_abbrev  0x00000000000029ce      0xb80 ./src/main.o
 
-.debug_line     0x0000000000000000     0xa423
+.debug_line     0x0000000000000000     0xa419
  *(.debug_line)
  .debug_line    0x0000000000000000      0x8ed ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_line    0x00000000000008ed      0x84b ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5738,9 +5736,9 @@ END GROUP
  .debug_line    0x0000000000007d6c      0x3fb ./src/MPU9250.o
  .debug_line    0x0000000000008167      0x396 ./src/Timer.o
  .debug_line    0x00000000000084fd      0x65c ./src/UartWithBuffer.o
- .debug_line    0x0000000000008b59     0x18ca ./src/main.o
+ .debug_line    0x0000000000008b59     0x18c0 ./src/main.o
 
-.debug_frame    0x0000000000000000     0x2960
+.debug_frame    0x0000000000000000     0x295c
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x1e8 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_frame   0x00000000000001e8      0x320 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5763,91 +5761,91 @@ END GROUP
  .debug_frame   0x0000000000001a0c       0xd4 ./src/MPU9250.o
  .debug_frame   0x0000000000001ae0       0x30 ./src/Timer.o
  .debug_frame   0x0000000000001b10       0x6c ./src/UartWithBuffer.o
- .debug_frame   0x0000000000001b7c      0x560 ./src/main.o
- .debug_frame   0x00000000000020dc       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
- .debug_frame   0x0000000000002104       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
- .debug_frame   0x0000000000002124       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
- .debug_frame   0x0000000000002154       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
- .debug_frame   0x000000000000218c       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
- .debug_frame   0x00000000000021c4       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
- .debug_frame   0x000000000000220c       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
- .debug_frame   0x0000000000002258       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
- .debug_frame   0x00000000000022a8       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
- .debug_frame   0x00000000000022f0       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
- .debug_frame   0x0000000000002310       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
- .debug_frame   0x0000000000002344       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
- .debug_frame   0x0000000000002374       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
- .debug_frame   0x0000000000002394       0xac /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000002440       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000002490       0xc4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x0000000000002554       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x0000000000002578       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00000000000025c4       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00000000000025fc       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x0000000000002620       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000002640       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000000000002670       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000002698       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000000000026d0       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000000026fc       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
- .debug_frame   0x000000000000271c       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000002748       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x0000000000002794       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000000027c4       0x3c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000002800       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000002890       0x60 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000028f0       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000002918       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000002940       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000001b7c      0x55c ./src/main.o
+ .debug_frame   0x00000000000020d8       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
+ .debug_frame   0x0000000000002100       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
+ .debug_frame   0x0000000000002120       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
+ .debug_frame   0x0000000000002150       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+ .debug_frame   0x0000000000002188       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+ .debug_frame   0x00000000000021c0       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+ .debug_frame   0x0000000000002208       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+ .debug_frame   0x0000000000002254       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+ .debug_frame   0x00000000000022a4       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+ .debug_frame   0x00000000000022ec       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x000000000000230c       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .debug_frame   0x0000000000002340       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000000000002370       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x0000000000002390       0xac /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000000000000243c       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000000000000248c       0xc4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000002550       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000002574       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000000000025c0       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000000000025f8       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x000000000000261c       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000000000000263c       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x000000000000266c       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000002694       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000026cc       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000026f8       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
+ .debug_frame   0x0000000000002718       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000002744       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x0000000000002790       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000027c0       0x3c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000027fc       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000000000000288c       0x60 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000028ec       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000002914       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000000000000293c       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x0000000000000000    0x5e8bd
+.debug_str      0x0000000000000000    0x5e89b
  *(.debug_str)
- .debug_str     0x0000000000000000    0x4e402 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
-                                      0x4e5e0 (size before relaxing)
- .debug_str     0x000000000004e402      0xb45 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
-                                      0x4ebaf (size before relaxing)
- .debug_str     0x000000000004ef47      0x5fd ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
-                                      0x4e709 (size before relaxing)
- .debug_str     0x000000000004f544      0xbd1 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
-                                      0x4ecfb (size before relaxing)
- .debug_str     0x0000000000050115      0x7d1 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
-                                      0x4e919 (size before relaxing)
- .debug_str     0x00000000000508e6     0x4da1 ./system/src/newlib/_exit.o
-                                       0x7550 (size before relaxing)
- .debug_str     0x0000000000055687      0x4ed ./system/src/newlib/_sbrk.o
-                                       0x6902 (size before relaxing)
- .debug_str     0x0000000000055b74      0x260 ./system/src/newlib/_startup.o
-                                       0x60c4 (size before relaxing)
- .debug_str     0x0000000000055dd4      0xe28 ./system/src/newlib/_syscalls.o
-                                       0x777a (size before relaxing)
- .debug_str     0x0000000000056bfc       0xd0 ./system/src/newlib/assert.o
-                                       0x8055 (size before relaxing)
- .debug_str     0x0000000000056ccc      0x883 ./system/src/diag/Trace.o
-                                       0x7d32 (size before relaxing)
- .debug_str     0x000000000005754f      0x37b ./system/src/diag/trace_impl.o
-                                      0x52135 (size before relaxing)
- .debug_str     0x00000000000578ca       0xa9 ./system/src/cortexm/_initialize_hardware.o
-                                      0x4e0ca (size before relaxing)
- .debug_str     0x0000000000057973      0x19d ./system/src/cortexm/exception_handlers.o
-                                      0x532c6 (size before relaxing)
- .debug_str     0x0000000000057b10       0x96 ./system/src/cmsis/system_stm32f10x.o
-                                      0x4e164 (size before relaxing)
- .debug_str     0x0000000000057ba6       0x57 ./system/src/cmsis/vectors_stm32f10x.o
-                                       0x3109 (size before relaxing)
- .debug_str     0x0000000000057bfd     0x2ad9 ./src/ros_lib/time.o
-                                       0x8bf5 (size before relaxing)
- .debug_str     0x000000000005a6d6      0x14b ./src/Init.o
-                                      0x4e85a (size before relaxing)
- .debug_str     0x000000000005a821     0x10aa ./src/MPU9250.o
-                                      0x4f489 (size before relaxing)
- .debug_str     0x000000000005b8cb       0xd1 ./src/Timer.o
-                                      0x4e424 (size before relaxing)
- .debug_str     0x000000000005b99c      0x566 ./src/UartWithBuffer.o
-                                      0x52765 (size before relaxing)
- .debug_str     0x000000000005bf02     0x29bb ./src/main.o
-                                      0x5a4e9 (size before relaxing)
+ .debug_str     0x0000000000000000    0x4e3f4 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
+                                      0x4e5d2 (size before relaxing)
+ .debug_str     0x000000000004e3f4      0xb45 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
+                                      0x4eba1 (size before relaxing)
+ .debug_str     0x000000000004ef39      0x5fd ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
+                                      0x4e6fb (size before relaxing)
+ .debug_str     0x000000000004f536      0xbd1 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
+                                      0x4eced (size before relaxing)
+ .debug_str     0x0000000000050107      0x7d1 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
+                                      0x4e90b (size before relaxing)
+ .debug_str     0x00000000000508d8     0x4da1 ./system/src/newlib/_exit.o
+                                       0x7542 (size before relaxing)
+ .debug_str     0x0000000000055679      0x4ed ./system/src/newlib/_sbrk.o
+                                       0x68f4 (size before relaxing)
+ .debug_str     0x0000000000055b66      0x260 ./system/src/newlib/_startup.o
+                                       0x60b6 (size before relaxing)
+ .debug_str     0x0000000000055dc6      0xe28 ./system/src/newlib/_syscalls.o
+                                       0x776c (size before relaxing)
+ .debug_str     0x0000000000056bee       0xd0 ./system/src/newlib/assert.o
+                                       0x8047 (size before relaxing)
+ .debug_str     0x0000000000056cbe      0x883 ./system/src/diag/Trace.o
+                                       0x7d24 (size before relaxing)
+ .debug_str     0x0000000000057541      0x37b ./system/src/diag/trace_impl.o
+                                      0x52127 (size before relaxing)
+ .debug_str     0x00000000000578bc       0xa9 ./system/src/cortexm/_initialize_hardware.o
+                                      0x4e0bc (size before relaxing)
+ .debug_str     0x0000000000057965      0x19d ./system/src/cortexm/exception_handlers.o
+                                      0x532b8 (size before relaxing)
+ .debug_str     0x0000000000057b02       0x96 ./system/src/cmsis/system_stm32f10x.o
+                                      0x4e156 (size before relaxing)
+ .debug_str     0x0000000000057b98       0x57 ./system/src/cmsis/vectors_stm32f10x.o
+                                       0x30fb (size before relaxing)
+ .debug_str     0x0000000000057bef     0x2ad9 ./src/ros_lib/time.o
+                                       0x8be7 (size before relaxing)
+ .debug_str     0x000000000005a6c8      0x14b ./src/Init.o
+                                      0x4e84c (size before relaxing)
+ .debug_str     0x000000000005a813     0x10aa ./src/MPU9250.o
+                                      0x4f47b (size before relaxing)
+ .debug_str     0x000000000005b8bd       0xd1 ./src/Timer.o
+                                      0x4e416 (size before relaxing)
+ .debug_str     0x000000000005b98e      0x566 ./src/UartWithBuffer.o
+                                      0x52757 (size before relaxing)
+ .debug_str     0x000000000005bef4     0x29a7 ./src/main.o
+                                      0x5a4c7 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x81db
+.debug_loc      0x0000000000000000     0x81a9
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x8ae ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_loc     0x00000000000008ae      0x9cf ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5866,7 +5864,7 @@ END GROUP
  .debug_loc     0x00000000000058c7      0x2a9 ./src/MPU9250.o
  .debug_loc     0x0000000000005b70       0x28 ./src/Timer.o
  .debug_loc     0x0000000000005b98      0x14f ./src/UartWithBuffer.o
- .debug_loc     0x0000000000005ce7     0x24f4 ./src/main.o
+ .debug_loc     0x0000000000005ce7     0x24c2 ./src/main.o
 
 .debug_macinfo
  *(.debug_macinfo)
