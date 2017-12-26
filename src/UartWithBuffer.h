@@ -10,20 +10,11 @@ class UartWithBuffer;
 #include "FIFORingBuffer.h"
 #include "diag/Trace.h"
 
-class Uart
-{
-public:
-	static constexpr int BaudRate = 57600;
-	static constexpr int TxBufSize = 1024;
-	static constexpr int RxBufSize = 512;
-	static UartWithBuffer<USART1_BASE, TxBufSize, RxBufSize> * Uart1;
-};
-
 template<int USART, int TxBufferSize, int RxBufferSize>
 class UartWithBuffer
 {
 public:
-	UartWithBuffer(int baudRate = Uart::BaudRate)
+	UartWithBuffer(int baudRate = 57600)//Uart::BaudRate)
 	{
 		this->_usart = reinterpret_cast<USART_TypeDef *>(USART);
 

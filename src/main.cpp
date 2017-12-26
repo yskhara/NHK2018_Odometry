@@ -11,7 +11,9 @@
 #include "std_msgs/Float32.h"
 #include "nav_msgs/Odometry.h"
 #include "geometry_msgs/PoseStamped.h"
+#include "geometry_msgs/TwistWithCovarianceStamped.h"
 #include "geometry_msgs/Quaternion.h"
+#include "sensor_msgs/Imu.h"
 #include "Timer.h"
 
 #include "tf/tf.h"
@@ -23,19 +25,21 @@
 
 ros::NodeHandle nh;
 
-//nav_msgs::Odometry odom_msg;
+geometry_msgs::TwistWithCovarianceStamped twist0_msg;
+sensor_msgs::Imu imu0_msg;
 //std_msgs::Float32 x_msg;
 //std_msgs::Float32 y_msg;
 //std_msgs::Float32 yaw_msg;
-geometry_msgs::PoseStamped pose_msg;
-std_msgs::UInt32 txbufcnt_msg;
+//geometry_msgs::PoseStamped pose_msg;
+//std_msgs::UInt32 txbufcnt_msg;
 
 //ros::Publisher x_pub("/x_enc", &x_msg);
 //ros::Publisher y_pub("/y_enc", &y_msg);
 //ros::Publisher yaw_pub("/yaw_imu", &yaw_msg);
-ros::Publisher pose_pub("/localization/pose", &pose_msg);
-ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
-//ros::Publisher orientation_pub("orientation", &orientation_msg);
+//ros::Publisher pose_pub("/localization/pose", &pose_msg);
+//ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
+ros::Publisher twist0_pub("dr/twist", &twist0_msg);
+ros::Publisher imu0_pub("dr/imu", &imu0_msg);
 
 //char hello[13] = "hello world!";
 
@@ -46,7 +50,7 @@ MPU9250 *mpu9250 = nullptr;
 // radius of wheels in metre
 static constexpr double WheelRadius = 0.024;
 // pulse/rev
-static constexpr double PulsePerRevolution = 100 * 4;
+static constexpr double PulsePerRevolution = 100 * 4;	// wanna use 500 p/r ones...
 /// Kpd = 2_pi_r[mm/rev] / Kp[pulse/rev]
 static constexpr double MmPerPulse = 2.0 * (double)M_PI * WheelRadius / PulsePerRevolution;
 
@@ -104,24 +108,18 @@ bool InitGyro(void)
 
 void ReadEncoders(void)
 {
-	//static volatile uint16_t _i = 0;
-
-	volatile int16_t _p1, _p2;
-	_p1 = (int16_t)(TIM2->CNT);
-	_p2 = (int16_t)(TIM3->CNT);
-
+	volatile int16_t _p1 = static_cast<int16_t>(TIM2->CNT);
 	TIM2->CNT = 0;
+
+	volatile int16_t _p2 = static_cast<int16_t>(TIM3->CNT);
 	TIM3->CNT = 0;
 
-	//trace_printf("%x, %x, %x", _n[0], _n[1], _n[2]);
-	//trace_printf("%d\n", (int16_t)_n[2]);
-
-	double _yaw = yaw + (M_PI / 4.0);
+	// just a simple rotation matrix
+	// translate encoder rate to x-y plane
+	double _yaw = /*yaw +*/ (M_PI / 4.0);
 	double _cos = cos(_yaw);
 	double _sin = sin(_yaw);
 
-	//x += ((_px * _cos) - (_py * _sin)) * MmPerPulse;
-	//y += ((_px * _sin) + (_py * _cos)) * MmPerPulse;
 	x += ((_p1 * _cos) - (_p2 * _sin)) * MmPerPulse;
 	y += ((_p1 * _sin) + (_p2 * _cos)) * MmPerPulse;
 }
@@ -164,20 +162,18 @@ int main(void)
 
 	Init::InitTIM();
 	Init::InitSPI();
-	//InitHardware();
 
 	// Initialize ROS
 	nh.initNode();
-	//nh.advertise(x_pub);
-	//nh.advertise(y_pub);
-	//nh.advertise(yaw_pub);
-	nh.advertise(pose_pub);
-	nh.advertise(txbufcnt_pub);
 
-    pose_msg.pose.position.z = 0;
+	nh.advertise(twist0_pub);
+	nh.advertise(imu0_pub);
 
 	ros::Time last_time = nh.now();
-	ros::Time current_time = last_time;//nh.now();
+	ros::Time current_time = last_time;
+
+	twist0_msg.header.frame_id = "twist0_link";
+	imu0_msg.header.frame_id = "imu0_link";
 
 	InitGyro();
 
@@ -192,15 +188,18 @@ int main(void)
 		// Send the message every second
 		if(current_time.toSec() - last_time.toSec() > interval)
 		{
-			pose_msg.header.stamp = current_time;
-			pose_msg.pose.position.x = x;
-			pose_msg.pose.position.y = y;
-			pose_msg.pose.position.z = 0;
-			pose_msg.header.frame_id = "odom";
-			pose_msg.pose.orientation = tf::createQuaternionFromYaw(yaw);
+			twist0_msg.header.stamp = current_time;
+			twist0_msg.twist.twist.linear.x = x;
+			twist0_msg.twist.twist.linear.y = y;
+
+			imu0_msg.angular_velocity.z = yaw;
+			//pose_msg.pose.orientation = tf::createQuaternionFromYaw(yaw);
 			//pose_msg.pose.orientation.w = yaw;
 
-			pose_pub.publish(&pose_msg);
+			//pose_pub.publish(&pose_msg);
+
+			twist0_pub.publish(&twist0_msg);
+			imu0_pub.publish(&imu0_msg);
 
 			//x_msg.data = x;
 			//y_msg.data = y;
@@ -209,8 +208,8 @@ int main(void)
 			//x_pub.publish(&x_msg);
 			//y_pub.publish(&y_msg);
 			//yaw_pub.publish(&yaw_msg);
-			txbufcnt_msg.data = Uart::Uart1->Tx_Count();
-			txbufcnt_pub.publish(&txbufcnt_msg);
+			//txbufcnt_msg.data = Uart::Uart1->Tx_Count();
+			//txbufcnt_pub.publish(&txbufcnt_msg);
 
 			last_time = current_time;
 		}

@@ -7,7 +7,6 @@ C_SRCS += \
 ../src/_write.c 
 
 CPP_SRCS += \
-../src/BlinkLed.cpp \
 ../src/Init.cpp \
 ../src/MPU9250.cpp \
 ../src/Timer.cpp \
@@ -15,7 +14,6 @@ CPP_SRCS += \
 ../src/main.cpp 
 
 OBJS += \
-./src/BlinkLed.o \
 ./src/Init.o \
 ./src/MPU9250.o \
 ./src/Timer.o \
@@ -27,7 +25,6 @@ C_DEPS += \
 ./src/_write.d 
 
 CPP_DEPS += \
-./src/BlinkLed.d \
 ./src/Init.d \
 ./src/MPU9250.d \
 ./src/Timer.d \

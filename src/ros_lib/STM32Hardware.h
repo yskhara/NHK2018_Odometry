@@ -12,6 +12,15 @@
 
 #include "Timer.h"
 
+class Uart
+{
+public:
+	static constexpr int BaudRate = 57600;
+	static constexpr int TxBufSize = 1024;
+	static constexpr int RxBufSize = 512;
+	static UartWithBuffer<USART1_BASE, TxBufSize, RxBufSize> * Uart1;
+};
+
 namespace {
 	void initUSART1(void)
 	{
@@ -47,6 +56,8 @@ namespace {
 }
 
 using SERIAL_CLASS = UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize>;
+
+SERIAL_CLASS *Uart::Uart1 = new SERIAL_CLASS(Uart::BaudRate);
 
 //static SERIAL_CLASS * USART1_Wrapper;
 

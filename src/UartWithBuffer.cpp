@@ -8,6 +8,7 @@
 #include "UartWithBuffer.h"
 
 
-UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize> *Uart::Uart1 = new UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize>(Uart::BaudRate);
+//UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize> *Uart::Uart1
+//	= new UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize>(Uart::BaudRate);
 
 

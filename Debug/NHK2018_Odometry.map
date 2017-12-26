@@ -1,9 +1,9 @@
 Archive member included to satisfy reference by file (symbol)
 
 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
-                              ./src/UartWithBuffer.o (operator new(unsigned int))
+                              ./src/main.o (operator new(unsigned int))
 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
-                              ./src/UartWithBuffer.o (operator new[](unsigned int))
+                              ./src/main.o (operator new[](unsigned int))
 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
                               /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o) (std::get_new_handler())
 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
@@ -3695,86 +3695,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1da ./src/ros_lib/time.o
  .debug_macro   0x0000000000000000      0x3d3 ./src/ros_lib/time.o
  .debug_macro   0x0000000000000000      0x34e ./src/ros_lib/time.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .group         0x0000000000000000        0x8 ./src/BlinkLed.o
- .text          0x0000000000000000        0x0 ./src/BlinkLed.o
- .data          0x0000000000000000        0x0 ./src/BlinkLed.o
- .bss           0x0000000000000000        0x0 ./src/BlinkLed.o
- .text._ZN8BlinkLed7powerUpEv
-                0x0000000000000000       0x3c ./src/BlinkLed.o
- .debug_info    0x0000000000000000      0x368 ./src/BlinkLed.o
- .debug_abbrev  0x0000000000000000      0x1f2 ./src/BlinkLed.o
- .debug_loc     0x0000000000000000       0x37 ./src/BlinkLed.o
- .debug_aranges
-                0x0000000000000000       0x20 ./src/BlinkLed.o
- .debug_ranges  0x0000000000000000       0x10 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x170 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x96a ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x50 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x34e ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x35 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x34 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0xb8e ./src/BlinkLed.o
- .debug_macro   0x0000000000000000     0x7dbe ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x2e4 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x144 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x3cf ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0xc8 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x17a ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0xac ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x3ad ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x9d ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x2cf ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x279 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x2ac ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x2b4 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x64 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x82 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x3e2 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x58 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x344 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x2c4 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x711 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000      0x222 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x34 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x8b ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x35 ./src/BlinkLed.o
- .debug_macro   0x0000000000000000       0x28 ./src/BlinkLed.o
- .debug_line    0x0000000000000000      0x351 ./src/BlinkLed.o
- .debug_str     0x0000000000000000    0x4e61a ./src/BlinkLed.o
- .comment       0x0000000000000000       0x80 ./src/BlinkLed.o
- .debug_frame   0x0000000000000000       0x30 ./src/BlinkLed.o
- .ARM.attributes
-                0x0000000000000000       0x33 ./src/BlinkLed.o
  .group         0x0000000000000000        0x8 ./src/Init.o
  .group         0x0000000000000000        0x8 ./src/Init.o
  .group         0x0000000000000000        0x8 ./src/Init.o
@@ -3813,7 +3733,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x34e ./src/Init.o
  .debug_macro   0x0000000000000000       0x35 ./src/Init.o
  .debug_macro   0x0000000000000000       0x34 ./src/Init.o
- .debug_macro   0x0000000000000000      0xb8e ./src/Init.o
  .debug_macro   0x0000000000000000     0x7dbe ./src/Init.o
  .debug_macro   0x0000000000000000       0x35 ./src/Init.o
  .debug_macro   0x0000000000000000      0x2e4 ./src/Init.o
@@ -4025,11 +3944,14 @@ Discarded input sections
  .group         0x0000000000000000        0x8 ./src/UartWithBuffer.o
  .group         0x0000000000000000        0x8 ./src/UartWithBuffer.o
  .group         0x0000000000000000        0x8 ./src/UartWithBuffer.o
- .group         0x0000000000000000        0x8 ./src/UartWithBuffer.o
- .group         0x0000000000000000        0x8 ./src/UartWithBuffer.o
  .text          0x0000000000000000        0x0 ./src/UartWithBuffer.o
  .data          0x0000000000000000        0x0 ./src/UartWithBuffer.o
  .bss           0x0000000000000000        0x0 ./src/UartWithBuffer.o
+ .debug_info    0x0000000000000000      0x109 ./src/UartWithBuffer.o
+ .debug_abbrev  0x0000000000000000       0x6f ./src/UartWithBuffer.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./src/UartWithBuffer.o
+ .debug_macro   0x0000000000000000      0x2c8 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000      0x96a ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0x50 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000      0x34e ./src/UartWithBuffer.o
@@ -4070,6 +3992,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xcf ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000      0x353 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0x10 ./src/UartWithBuffer.o
+ .debug_macro   0x0000000000000000       0xc5 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0x58 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0x1f ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0x43 ./src/UartWithBuffer.o
@@ -4082,6 +4005,11 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x40 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000       0xd7 ./src/UartWithBuffer.o
  .debug_macro   0x0000000000000000      0x51a ./src/UartWithBuffer.o
+ .debug_line    0x0000000000000000      0x5ce ./src/UartWithBuffer.o
+ .debug_str     0x0000000000000000    0x52171 ./src/UartWithBuffer.o
+ .comment       0x0000000000000000       0x80 ./src/UartWithBuffer.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./src/UartWithBuffer.o
  .group         0x0000000000000000        0x8 ./src/_write.o
  .text          0x0000000000000000        0x0 ./src/_write.o
  .data          0x0000000000000000        0x0 ./src/_write.o
@@ -4097,6 +4025,8 @@ Discarded input sections
  .comment       0x0000000000000000       0x80 ./src/_write.o
  .ARM.attributes
                 0x0000000000000000       0x33 ./src/_write.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
  .group         0x0000000000000000        0x8 ./src/main.o
  .group         0x0000000000000000        0x8 ./src/main.o
  .group         0x0000000000000000        0x8 ./src/main.o
@@ -4467,7 +4397,6 @@ LOAD ./system/src/cmsis/system_stm32f10x.o
 LOAD ./system/src/cmsis/vectors_stm32f10x.o
 LOAD ./src/ros_lib/duration.o
 LOAD ./src/ros_lib/time.o
-LOAD ./src/BlinkLed.o
 LOAD ./src/Init.o
 LOAD ./src/MPU9250.o
 LOAD ./src/Timer.o
@@ -4609,12 +4538,12 @@ END GROUP
                 0x000000000800034c                DMA2_Channel3_IRQHandler
                 0x000000000800034c                TIM1_BRK_TIM15_IRQHandler
 
-.inits          0x0000000008000350       0x30
+.inits          0x0000000008000350       0x2c
                 0x0000000008000350                __data_regions_array_start = .
-                0x0000000008000350        0x4 LONG 0x800744c LOADADDR (.data)
+                0x0000000008000350        0x4 LONG 0x8007424 LOADADDR (.data)
                 0x0000000008000354        0x4 LONG 0x20000000 ADDR (.data)
                 0x0000000008000358        0x4 LONG 0x2000009c (ADDR (.data) + SIZEOF (.data))
-                0x000000000800035c        0x4 LONG 0x800744c LOADADDR (.data_CCMRAM)
+                0x000000000800035c        0x4 LONG 0x8007424 LOADADDR (.data_CCMRAM)
                 0x0000000008000360        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x0000000008000364        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0000000008000368                __data_regions_array_end = .
@@ -4636,19 +4565,18 @@ END GROUP
                 0x0000000008000378                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0000000008000378        0x4 ./src/UartWithBuffer.o
- .init_array    0x000000000800037c        0x4 ./src/main.o
-                0x0000000008000380                PROVIDE (__init_array_end, .)
-                0x0000000008000380                . = ALIGN (0x4)
-                0x0000000008000380                PROVIDE (__fini_array_start, .)
+ .init_array    0x0000000008000378        0x4 ./src/main.o
+                0x000000000800037c                PROVIDE (__init_array_end, .)
+                0x000000000800037c                . = ALIGN (0x4)
+                0x000000000800037c                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
-                0x0000000008000380                PROVIDE (__fini_array_end, .)
+                0x000000000800037c                PROVIDE (__fini_array_end, .)
 
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000380     0x70cb
+.text           0x0000000008000380     0x70a3
  *(.text .text.*)
  .text.GPIO_Init
                 0x0000000008000380      0x130 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
@@ -4784,522 +4712,520 @@ END GROUP
  .text.SysTick_Handler
                 0x0000000008001774       0x18 ./src/Timer.o
                 0x0000000008001774                SysTick_Handler
- .text._ZN14FIFORingBufferIhE5pow2_Et
-                0x000000000800178c       0x20 ./src/UartWithBuffer.o
-                0x000000000800178c                FIFORingBuffer<unsigned char>::pow2_(unsigned short)
- .text._ZN14FIFORingBufferIhEC2Et
-                0x00000000080017ac       0x22 ./src/UartWithBuffer.o
-                0x00000000080017ac                FIFORingBuffer<unsigned char>::FIFORingBuffer(unsigned short)
-                0x00000000080017ac                FIFORingBuffer<unsigned char>::FIFORingBuffer(unsigned short)
- *fill*         0x00000000080017ce        0x2 
- .text._Z41__static_initialization_and_destruction_0ii
-                0x00000000080017d0       0x58 ./src/UartWithBuffer.o
- .text._GLOBAL__sub_I__ZN4Uart5Uart1E
-                0x0000000008001828        0xe ./src/UartWithBuffer.o
  .text._ZNK8std_msgs4Time9serializeEPh
-                0x0000000008001836       0x24 ./src/main.o
-                0x0000000008001836                std_msgs::Time::serialize(unsigned char*) const
+                0x000000000800178c       0x24 ./src/main.o
+                0x000000000800178c                std_msgs::Time::serialize(unsigned char*) const
  .text._ZN8std_msgs4Time11deserializeEPh
-                0x000000000800185a       0x3c ./src/main.o
-                0x000000000800185a                std_msgs::Time::deserialize(unsigned char*)
- *fill*         0x0000000008001896        0x2 
+                0x00000000080017b0       0x3c ./src/main.o
+                0x00000000080017b0                std_msgs::Time::deserialize(unsigned char*)
  .text._ZN8std_msgs4Time7getTypeEv
-                0x0000000008001898        0x8 ./src/main.o
-                0x0000000008001898                std_msgs::Time::getType()
+                0x00000000080017ec        0x8 ./src/main.o
+                0x00000000080017ec                std_msgs::Time::getType()
  .text._ZN8std_msgs4Time6getMD5Ev
-                0x00000000080018a0        0x8 ./src/main.o
-                0x00000000080018a0                std_msgs::Time::getMD5()
+                0x00000000080017f4        0x8 ./src/main.o
+                0x00000000080017f4                std_msgs::Time::getMD5()
  .text._ZN14rosserial_msgs9TopicInfo11deserializeEPh
-                0x00000000080018a8       0xca ./src/main.o
-                0x00000000080018a8                rosserial_msgs::TopicInfo::deserialize(unsigned char*)
- *fill*         0x0000000008001972        0x2 
+                0x00000000080017fc       0xca ./src/main.o
+                0x00000000080017fc                rosserial_msgs::TopicInfo::deserialize(unsigned char*)
+ *fill*         0x00000000080018c6        0x2 
  .text._ZN14rosserial_msgs9TopicInfo7getTypeEv
-                0x0000000008001974        0x8 ./src/main.o
-                0x0000000008001974                rosserial_msgs::TopicInfo::getType()
+                0x00000000080018c8        0x8 ./src/main.o
+                0x00000000080018c8                rosserial_msgs::TopicInfo::getType()
  .text._ZN14rosserial_msgs9TopicInfo6getMD5Ev
-                0x000000000800197c        0x8 ./src/main.o
-                0x000000000800197c                rosserial_msgs::TopicInfo::getMD5()
+                0x00000000080018d0        0x8 ./src/main.o
+                0x00000000080018d0                rosserial_msgs::TopicInfo::getMD5()
  .text._ZN14rosserial_msgs3Log11deserializeEPh
-                0x0000000008001984       0x40 ./src/main.o
-                0x0000000008001984                rosserial_msgs::Log::deserialize(unsigned char*)
+                0x00000000080018d8       0x40 ./src/main.o
+                0x00000000080018d8                rosserial_msgs::Log::deserialize(unsigned char*)
  .text._ZN14rosserial_msgs3Log7getTypeEv
-                0x00000000080019c4        0x8 ./src/main.o
-                0x00000000080019c4                rosserial_msgs::Log::getType()
+                0x0000000008001918        0x8 ./src/main.o
+                0x0000000008001918                rosserial_msgs::Log::getType()
  .text._ZN14rosserial_msgs3Log6getMD5Ev
-                0x00000000080019cc        0x8 ./src/main.o
-                0x00000000080019cc                rosserial_msgs::Log::getMD5()
+                0x0000000008001920        0x8 ./src/main.o
+                0x0000000008001920                rosserial_msgs::Log::getMD5()
  .text._ZN14rosserial_msgs20RequestParamResponse7getTypeEv
-                0x00000000080019d4        0x8 ./src/main.o
-                0x00000000080019d4                rosserial_msgs::RequestParamResponse::getType()
+                0x0000000008001928        0x8 ./src/main.o
+                0x0000000008001928                rosserial_msgs::RequestParamResponse::getType()
  .text._ZN14rosserial_msgs20RequestParamResponse6getMD5Ev
-                0x00000000080019dc        0x8 ./src/main.o
-                0x00000000080019dc                rosserial_msgs::RequestParamResponse::getMD5()
+                0x0000000008001930        0x8 ./src/main.o
+                0x0000000008001930                rosserial_msgs::RequestParamResponse::getMD5()
  .text._ZNK8std_msgs6UInt329serializeEPh
-                0x00000000080019e4       0x14 ./src/main.o
-                0x00000000080019e4                std_msgs::UInt32::serialize(unsigned char*) const
+                0x0000000008001938       0x14 ./src/main.o
+                0x0000000008001938                std_msgs::UInt32::serialize(unsigned char*) const
  .text._ZN8std_msgs6UInt3211deserializeEPh
-                0x00000000080019f8       0x20 ./src/main.o
-                0x00000000080019f8                std_msgs::UInt32::deserialize(unsigned char*)
+                0x000000000800194c       0x20 ./src/main.o
+                0x000000000800194c                std_msgs::UInt32::deserialize(unsigned char*)
  .text._ZN8std_msgs6UInt327getTypeEv
-                0x0000000008001a18        0x8 ./src/main.o
-                0x0000000008001a18                std_msgs::UInt32::getType()
+                0x000000000800196c        0x8 ./src/main.o
+                0x000000000800196c                std_msgs::UInt32::getType()
  .text._ZN8std_msgs6UInt326getMD5Ev
-                0x0000000008001a20        0x8 ./src/main.o
-                0x0000000008001a20                std_msgs::UInt32::getMD5()
+                0x0000000008001974        0x8 ./src/main.o
+                0x0000000008001974                std_msgs::UInt32::getMD5()
  .text._ZN8std_msgs6Header11deserializeEPh
-                0x0000000008001a28       0x90 ./src/main.o
-                0x0000000008001a28                std_msgs::Header::deserialize(unsigned char*)
+                0x000000000800197c       0x90 ./src/main.o
+                0x000000000800197c                std_msgs::Header::deserialize(unsigned char*)
  .text._ZN8std_msgs6Header7getTypeEv
-                0x0000000008001ab8        0x8 ./src/main.o
-                0x0000000008001ab8                std_msgs::Header::getType()
+                0x0000000008001a0c        0x8 ./src/main.o
+                0x0000000008001a0c                std_msgs::Header::getType()
  .text._ZN8std_msgs6Header6getMD5Ev
-                0x0000000008001ac0        0x8 ./src/main.o
-                0x0000000008001ac0                std_msgs::Header::getMD5()
+                0x0000000008001a14        0x8 ./src/main.o
+                0x0000000008001a14                std_msgs::Header::getMD5()
  .text._ZNK13geometry_msgs5Point9serializeEPh
-                0x0000000008001ac8       0x80 ./src/main.o
-                0x0000000008001ac8                geometry_msgs::Point::serialize(unsigned char*) const
+                0x0000000008001a1c       0x80 ./src/main.o
+                0x0000000008001a1c                geometry_msgs::Point::serialize(unsigned char*) const
  .text._ZN13geometry_msgs5Point11deserializeEPh
-                0x0000000008001b48      0x11e ./src/main.o
-                0x0000000008001b48                geometry_msgs::Point::deserialize(unsigned char*)
- *fill*         0x0000000008001c66        0x2 
+                0x0000000008001a9c      0x11e ./src/main.o
+                0x0000000008001a9c                geometry_msgs::Point::deserialize(unsigned char*)
+ *fill*         0x0000000008001bba        0x2 
  .text._ZN13geometry_msgs5Point7getTypeEv
-                0x0000000008001c68        0x8 ./src/main.o
-                0x0000000008001c68                geometry_msgs::Point::getType()
+                0x0000000008001bbc        0x8 ./src/main.o
+                0x0000000008001bbc                geometry_msgs::Point::getType()
  .text._ZN13geometry_msgs5Point6getMD5Ev
-                0x0000000008001c70        0x8 ./src/main.o
-                0x0000000008001c70                geometry_msgs::Point::getMD5()
+                0x0000000008001bc4        0x8 ./src/main.o
+                0x0000000008001bc4                geometry_msgs::Point::getMD5()
  .text._ZNK13geometry_msgs10Quaternion9serializeEPh
-                0x0000000008001c78       0xa8 ./src/main.o
-                0x0000000008001c78                geometry_msgs::Quaternion::serialize(unsigned char*) const
+                0x0000000008001bcc       0xa8 ./src/main.o
+                0x0000000008001bcc                geometry_msgs::Quaternion::serialize(unsigned char*) const
  .text._ZN13geometry_msgs10Quaternion11deserializeEPh
-                0x0000000008001d20      0x17e ./src/main.o
-                0x0000000008001d20                geometry_msgs::Quaternion::deserialize(unsigned char*)
- *fill*         0x0000000008001e9e        0x2 
+                0x0000000008001c74      0x17e ./src/main.o
+                0x0000000008001c74                geometry_msgs::Quaternion::deserialize(unsigned char*)
+ *fill*         0x0000000008001df2        0x2 
  .text._ZN13geometry_msgs10Quaternion7getTypeEv
-                0x0000000008001ea0        0x8 ./src/main.o
-                0x0000000008001ea0                geometry_msgs::Quaternion::getType()
+                0x0000000008001df4        0x8 ./src/main.o
+                0x0000000008001df4                geometry_msgs::Quaternion::getType()
  .text._ZN13geometry_msgs10Quaternion6getMD5Ev
-                0x0000000008001ea8        0x8 ./src/main.o
-                0x0000000008001ea8                geometry_msgs::Quaternion::getMD5()
+                0x0000000008001dfc        0x8 ./src/main.o
+                0x0000000008001dfc                geometry_msgs::Quaternion::getMD5()
  .text._ZN13geometry_msgs4Pose7getTypeEv
-                0x0000000008001eb0        0x8 ./src/main.o
-                0x0000000008001eb0                geometry_msgs::Pose::getType()
+                0x0000000008001e04        0x8 ./src/main.o
+                0x0000000008001e04                geometry_msgs::Pose::getType()
  .text._ZN13geometry_msgs4Pose6getMD5Ev
-                0x0000000008001eb8        0x8 ./src/main.o
-                0x0000000008001eb8                geometry_msgs::Pose::getMD5()
+                0x0000000008001e0c        0x8 ./src/main.o
+                0x0000000008001e0c                geometry_msgs::Pose::getMD5()
  .text._ZN13geometry_msgs11PoseStamped7getTypeEv
-                0x0000000008001ec0        0x8 ./src/main.o
-                0x0000000008001ec0                geometry_msgs::PoseStamped::getType()
+                0x0000000008001e14        0x8 ./src/main.o
+                0x0000000008001e14                geometry_msgs::PoseStamped::getType()
  .text._ZN13geometry_msgs11PoseStamped6getMD5Ev
-                0x0000000008001ec8        0x8 ./src/main.o
-                0x0000000008001ec8                geometry_msgs::PoseStamped::getMD5()
+                0x0000000008001e1c        0x8 ./src/main.o
+                0x0000000008001e1c                geometry_msgs::PoseStamped::getMD5()
  .text._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE9connectedEv
-                0x0000000008001ed0        0x6 ./src/main.o
-                0x0000000008001ed0                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::connected()
+                0x0000000008001e24        0x6 ./src/main.o
+                0x0000000008001e24                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::connected()
  .text._ZNK14rosserial_msgs9TopicInfo9serializeEPh
-                0x0000000008001ed6       0xaa ./src/main.o
-                0x0000000008001ed6                rosserial_msgs::TopicInfo::serialize(unsigned char*) const
+                0x0000000008001e2a       0xaa ./src/main.o
+                0x0000000008001e2a                rosserial_msgs::TopicInfo::serialize(unsigned char*) const
  .text._ZNK14rosserial_msgs3Log9serializeEPh
-                0x0000000008001f80       0x34 ./src/main.o
-                0x0000000008001f80                rosserial_msgs::Log::serialize(unsigned char*) const
+                0x0000000008001ed4       0x34 ./src/main.o
+                0x0000000008001ed4                rosserial_msgs::Log::serialize(unsigned char*) const
  .text._ZNK14rosserial_msgs20RequestParamResponse9serializeEPh
-                0x0000000008001fb4       0xf0 ./src/main.o
-                0x0000000008001fb4                rosserial_msgs::RequestParamResponse::serialize(unsigned char*) const
+                0x0000000008001f08       0xf0 ./src/main.o
+                0x0000000008001f08                rosserial_msgs::RequestParamResponse::serialize(unsigned char*) const
  .text._ZNK8std_msgs6Header9serializeEPh
-                0x00000000080020a4       0x66 ./src/main.o
-                0x00000000080020a4                std_msgs::Header::serialize(unsigned char*) const
+                0x0000000008001ff8       0x66 ./src/main.o
+                0x0000000008001ff8                std_msgs::Header::serialize(unsigned char*) const
  .text._ZN14rosserial_msgs20RequestParamResponse11deserializeEPh
-                0x000000000800210a      0x172 ./src/main.o
-                0x000000000800210a                rosserial_msgs::RequestParamResponse::deserialize(unsigned char*)
+                0x000000000800205e      0x172 ./src/main.o
+                0x000000000800205e                rosserial_msgs::RequestParamResponse::deserialize(unsigned char*)
  .text._ZN12_GLOBAL__N_110initUSART1Ev
-                0x000000000800227c       0xa4 ./src/main.o
- .text._Z41__static_initialization_and_destruction_0ii
-                0x0000000008002320      0x148 ./src/main.o
+                0x00000000080021d0       0xa4 ./src/main.o
  .text._ZNK13geometry_msgs4Pose9serializeEPh
-                0x0000000008002468      0x124 ./src/main.o
-                0x0000000008002468                geometry_msgs::Pose::serialize(unsigned char*) const
+                0x0000000008002274      0x124 ./src/main.o
+                0x0000000008002274                geometry_msgs::Pose::serialize(unsigned char*) const
  .text._ZNK13geometry_msgs11PoseStamped9serializeEPh
-                0x000000000800258c      0x18a ./src/main.o
-                0x000000000800258c                geometry_msgs::PoseStamped::serialize(unsigned char*) const
+                0x0000000008002398      0x18a ./src/main.o
+                0x0000000008002398                geometry_msgs::PoseStamped::serialize(unsigned char*) const
  .text._ZN13geometry_msgs11PoseStamped11deserializeEPh
-                0x0000000008002716      0x3b4 ./src/main.o
-                0x0000000008002716                geometry_msgs::PoseStamped::deserialize(unsigned char*)
+                0x0000000008002522      0x3b4 ./src/main.o
+                0x0000000008002522                geometry_msgs::PoseStamped::deserialize(unsigned char*)
  .text._ZN13geometry_msgs4Pose11deserializeEPh
-                0x0000000008002aca      0x2ae ./src/main.o
-                0x0000000008002aca                geometry_msgs::Pose::deserialize(unsigned char*)
+                0x00000000080028d6      0x2ae ./src/main.o
+                0x00000000080028d6                geometry_msgs::Pose::deserialize(unsigned char*)
  .text._Z8InitGyrov
-                0x0000000008002d78       0xb8 ./src/main.o
-                0x0000000008002d78                InitGyro()
+                0x0000000008002b84       0xb8 ./src/main.o
+                0x0000000008002b84                InitGyro()
+ *fill*         0x0000000008002c3c        0x4 
  .text._Z12ReadEncodersv
-                0x0000000008002e30      0x110 ./src/main.o
-                0x0000000008002e30                ReadEncoders()
+                0x0000000008002c40      0x110 ./src/main.o
+                0x0000000008002c40                ReadEncoders()
  .text._Z8ReadGyrov
-                0x0000000008002f40       0xb0 ./src/main.o
-                0x0000000008002f40                ReadGyro()
+                0x0000000008002d50       0xb0 ./src/main.o
+                0x0000000008002d50                ReadGyro()
  .text.TIM4_IRQHandler
-                0x0000000008002ff0       0x3c ./src/main.o
-                0x0000000008002ff0                TIM4_IRQHandler
+                0x0000000008002e00       0x3c ./src/main.o
+                0x0000000008002e00                TIM4_IRQHandler
  .text._ZN14FIFORingBufferIhE12GetItemCountEv
-                0x000000000800302c       0x12 ./src/main.o
-                0x000000000800302c                FIFORingBuffer<unsigned char>::GetItemCount()
+                0x0000000008002e3c       0x12 ./src/main.o
+                0x0000000008002e3c                FIFORingBuffer<unsigned char>::GetItemCount()
  .text._ZN14FIFORingBufferIhE7EnqueueEh
-                0x000000000800303e       0x32 ./src/main.o
-                0x000000000800303e                FIFORingBuffer<unsigned char>::Enqueue(unsigned char)
+                0x0000000008002e4e       0x32 ./src/main.o
+                0x0000000008002e4e                FIFORingBuffer<unsigned char>::Enqueue(unsigned char)
  .text._ZN14FIFORingBufferIhE7DequeueEv
-                0x0000000008003070       0x16 ./src/main.o
-                0x0000000008003070                FIFORingBuffer<unsigned char>::Dequeue()
- *fill*         0x0000000008003086        0x2 
+                0x0000000008002e80       0x16 ./src/main.o
+                0x0000000008002e80                FIFORingBuffer<unsigned char>::Dequeue()
+ *fill*         0x0000000008002e96        0x2 
  .text._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE8spinOnceEv
-                0x0000000008003088      0x5d4 ./src/main.o
-                0x0000000008003088                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::spinOnce()
- *fill*         0x000000000800365c        0x4 
- .text.main     0x0000000008003660      0x93c ./src/main.o
-                0x0000000008003660                main
+                0x0000000008002e98      0x5d4 ./src/main.o
+                0x0000000008002e98                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::spinOnce()
+ *fill*         0x000000000800346c        0x4 
+ .text.main     0x0000000008003470      0x93c ./src/main.o
+                0x0000000008003470                main
  .text._ZN14FIFORingBufferIhE5ClearEv
-                0x0000000008003f9c        0x8 ./src/main.o
-                0x0000000008003f9c                FIFORingBuffer<unsigned char>::Clear()
+                0x0000000008003dac        0x8 ./src/main.o
+                0x0000000008003dac                FIFORingBuffer<unsigned char>::Clear()
  .text.USART1_IRQHandler
-                0x0000000008003fa4       0x8c ./src/main.o
-                0x0000000008003fa4                USART1_IRQHandler
+                0x0000000008003db4       0x8c ./src/main.o
+                0x0000000008003db4                USART1_IRQHandler
  .text._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE7publishEiPKNS_3MsgE
-                0x0000000008004030      0x118 ./src/main.o
-                0x0000000008004030                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::publish(int, ros::Msg const*)
- .text._GLOBAL__sub_I_USART1_IRQHandler
-                0x0000000008004148        0xe ./src/main.o
- .text._Znwj    0x0000000008004156       0x22 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
-                0x0000000008004156                operator new(unsigned int)
- .text._Znaj    0x0000000008004178        0x4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
-                0x0000000008004178                operator new[](unsigned int)
+                0x0000000008003e40      0x118 ./src/main.o
+                0x0000000008003e40                ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>::publish(int, ros::Msg const*)
+ .text._ZN14FIFORingBufferIhE5pow2_Et
+                0x0000000008003f58       0x20 ./src/main.o
+                0x0000000008003f58                FIFORingBuffer<unsigned char>::pow2_(unsigned short)
+ .text._ZN14FIFORingBufferIhEC2Et
+                0x0000000008003f78       0x22 ./src/main.o
+                0x0000000008003f78                FIFORingBuffer<unsigned char>::FIFORingBuffer(unsigned short)
+                0x0000000008003f78                FIFORingBuffer<unsigned char>::FIFORingBuffer(unsigned short)
+ *fill*         0x0000000008003f9a        0x2 
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x0000000008003f9c      0x184 ./src/main.o
+ .text._GLOBAL__sub_I__ZN4Uart5Uart1E
+                0x0000000008004120        0xe ./src/main.o
+ .text._Znwj    0x000000000800412e       0x22 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
+                0x000000000800412e                operator new(unsigned int)
+ .text._Znaj    0x0000000008004150        0x4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
+                0x0000000008004150                operator new[](unsigned int)
  .text._ZSt15get_new_handlerv
-                0x000000000800417c       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
-                0x000000000800417c                std::get_new_handler()
- .text.cos      0x000000000800418c       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
-                0x000000000800418c                cos
- .text.sin      0x000000000800421c       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
-                0x000000000800421c                sin
- *fill*         0x00000000080042ac        0x4 
+                0x0000000008004154       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
+                0x0000000008004154                std::get_new_handler()
+ .text.cos      0x0000000008004164       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+                0x0000000008004164                cos
+ .text.sin      0x00000000080041f4       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+                0x00000000080041f4                sin
+ *fill*         0x0000000008004284        0x4 
  .text.__ieee754_rem_pio2
-                0x00000000080042b0      0x42c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
-                0x00000000080042b0                __ieee754_rem_pio2
- *fill*         0x00000000080046dc        0x4 
+                0x0000000008004288      0x42c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+                0x0000000008004288                __ieee754_rem_pio2
+ *fill*         0x00000000080046b4        0x4 
  .text.__kernel_cos
-                0x00000000080046e0      0x248 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
-                0x00000000080046e0                __kernel_cos
+                0x00000000080046b8      0x248 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+                0x00000000080046b8                __kernel_cos
  .text.__kernel_rem_pio2
-                0x0000000008004928      0x88c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
-                0x0000000008004928                __kernel_rem_pio2
- *fill*         0x00000000080051b4        0x4 
+                0x0000000008004900      0x88c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x0000000008004900                __kernel_rem_pio2
+ *fill*         0x000000000800518c        0x4 
  .text.__kernel_sin
-                0x00000000080051b8      0x16c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
-                0x00000000080051b8                __kernel_sin
- .text.fabs     0x0000000008005324        0x8 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
-                0x0000000008005324                fabs
- *fill*         0x000000000800532c        0x4 
- .text.floor    0x0000000008005330      0x118 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
-                0x0000000008005330                floor
- .text.scalbn   0x0000000008005448       0xe4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
-                0x0000000008005448                scalbn
+                0x0000000008005190      0x16c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+                0x0000000008005190                __kernel_sin
+ .text.fabs     0x00000000080052fc        0x8 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+                0x00000000080052fc                fabs
+ *fill*         0x0000000008005304        0x4 
+ .text.floor    0x0000000008005308      0x118 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+                0x0000000008005308                floor
+ .text.scalbn   0x0000000008005420       0xe4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+                0x0000000008005420                scalbn
  .text.copysign
-                0x000000000800552c       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
-                0x000000000800552c                copysign
- .text          0x000000000800553c      0x370 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
-                0x000000000800553c                __aeabi_drsub
-                0x0000000008005544                __aeabi_dsub
-                0x0000000008005544                __subdf3
-                0x0000000008005548                __adddf3
-                0x0000000008005548                __aeabi_dadd
-                0x00000000080057c0                __aeabi_ui2d
-                0x00000000080057c0                __floatunsidf
-                0x00000000080057e0                __floatsidf
-                0x00000000080057e0                __aeabi_i2d
-                0x0000000008005804                __extendsfdf2
-                0x0000000008005804                __aeabi_f2d
-                0x0000000008005840                __aeabi_ul2d
-                0x0000000008005840                __floatundidf
-                0x0000000008005850                __floatdidf
-                0x0000000008005850                __aeabi_l2d
- .text          0x00000000080058ac      0x424 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
-                0x00000000080058ac                __aeabi_dmul
-                0x00000000080058ac                __muldf3
-                0x0000000008005b00                __aeabi_ddiv
-                0x0000000008005b00                __divdf3
- .text          0x0000000008005cd0      0x110 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
-                0x0000000008005cd0                __gtdf2
-                0x0000000008005cd0                __gedf2
-                0x0000000008005cd8                __ltdf2
-                0x0000000008005cd8                __ledf2
-                0x0000000008005ce0                __cmpdf2
-                0x0000000008005ce0                __eqdf2
-                0x0000000008005ce0                __nedf2
-                0x0000000008005d5c                __aeabi_cdrcmple
-                0x0000000008005d6c                __aeabi_cdcmple
-                0x0000000008005d6c                __aeabi_cdcmpeq
-                0x0000000008005d7c                __aeabi_dcmpeq
-                0x0000000008005d90                __aeabi_dcmplt
-                0x0000000008005da4                __aeabi_dcmple
-                0x0000000008005db8                __aeabi_dcmpge
-                0x0000000008005dcc                __aeabi_dcmpgt
- .text          0x0000000008005de0       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
-                0x0000000008005de0                __fixdfsi
-                0x0000000008005de0                __aeabi_d2iz
- .text          0x0000000008005e30      0x21c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
-                0x0000000008005e30                __aeabi_frsub
-                0x0000000008005e38                __subsf3
-                0x0000000008005e38                __aeabi_fsub
-                0x0000000008005e3c                __aeabi_fadd
-                0x0000000008005e3c                __addsf3
-                0x0000000008005f9c                __aeabi_ui2f
-                0x0000000008005f9c                __floatunsisf
-                0x0000000008005fa4                __aeabi_i2f
-                0x0000000008005fa4                __floatsisf
-                0x0000000008005fc0                __floatundisf
-                0x0000000008005fc0                __aeabi_ul2f
-                0x0000000008005fd0                __floatdisf
-                0x0000000008005fd0                __aeabi_l2f
- .text          0x000000000800604c      0x2a0 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
-                0x000000000800604c                __mulsf3
-                0x000000000800604c                __aeabi_fmul
-                0x00000000080061b4                __divsf3
-                0x00000000080061b4                __aeabi_fdiv
- .text          0x00000000080062ec       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
-                0x00000000080062ec                __fixsfsi
-                0x00000000080062ec                __aeabi_f2iz
- .text.__errno  0x0000000008006338        0xc /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
-                0x0000000008006338                __errno
- .text.malloc   0x0000000008006344       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
-                0x0000000008006344                malloc
- .text.memcpy   0x0000000008006354       0x16 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008006354                memcpy
- *fill*         0x000000000800636a        0x2 
- .text._free_r  0x000000000800636c       0x98 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
-                0x000000000800636c                _free_r
+                0x0000000008005504       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+                0x0000000008005504                copysign
+ .text          0x0000000008005514      0x370 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008005514                __aeabi_drsub
+                0x000000000800551c                __aeabi_dsub
+                0x000000000800551c                __subdf3
+                0x0000000008005520                __adddf3
+                0x0000000008005520                __aeabi_dadd
+                0x0000000008005798                __aeabi_ui2d
+                0x0000000008005798                __floatunsidf
+                0x00000000080057b8                __floatsidf
+                0x00000000080057b8                __aeabi_i2d
+                0x00000000080057dc                __extendsfdf2
+                0x00000000080057dc                __aeabi_f2d
+                0x0000000008005818                __aeabi_ul2d
+                0x0000000008005818                __floatundidf
+                0x0000000008005828                __floatdidf
+                0x0000000008005828                __aeabi_l2d
+ .text          0x0000000008005884      0x424 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x0000000008005884                __aeabi_dmul
+                0x0000000008005884                __muldf3
+                0x0000000008005ad8                __aeabi_ddiv
+                0x0000000008005ad8                __divdf3
+ .text          0x0000000008005ca8      0x110 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008005ca8                __gtdf2
+                0x0000000008005ca8                __gedf2
+                0x0000000008005cb0                __ltdf2
+                0x0000000008005cb0                __ledf2
+                0x0000000008005cb8                __cmpdf2
+                0x0000000008005cb8                __eqdf2
+                0x0000000008005cb8                __nedf2
+                0x0000000008005d34                __aeabi_cdrcmple
+                0x0000000008005d44                __aeabi_cdcmple
+                0x0000000008005d44                __aeabi_cdcmpeq
+                0x0000000008005d54                __aeabi_dcmpeq
+                0x0000000008005d68                __aeabi_dcmplt
+                0x0000000008005d7c                __aeabi_dcmple
+                0x0000000008005d90                __aeabi_dcmpge
+                0x0000000008005da4                __aeabi_dcmpgt
+ .text          0x0000000008005db8       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x0000000008005db8                __fixdfsi
+                0x0000000008005db8                __aeabi_d2iz
+ .text          0x0000000008005e08      0x21c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008005e08                __aeabi_frsub
+                0x0000000008005e10                __subsf3
+                0x0000000008005e10                __aeabi_fsub
+                0x0000000008005e14                __aeabi_fadd
+                0x0000000008005e14                __addsf3
+                0x0000000008005f74                __aeabi_ui2f
+                0x0000000008005f74                __floatunsisf
+                0x0000000008005f7c                __aeabi_i2f
+                0x0000000008005f7c                __floatsisf
+                0x0000000008005f98                __floatundisf
+                0x0000000008005f98                __aeabi_ul2f
+                0x0000000008005fa8                __floatdisf
+                0x0000000008005fa8                __aeabi_l2f
+ .text          0x0000000008006024      0x2a0 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000008006024                __mulsf3
+                0x0000000008006024                __aeabi_fmul
+                0x000000000800618c                __divsf3
+                0x000000000800618c                __aeabi_fdiv
+ .text          0x00000000080062c4       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
+                0x00000000080062c4                __fixsfsi
+                0x00000000080062c4                __aeabi_f2iz
+ .text.__errno  0x0000000008006310        0xc /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
+                0x0000000008006310                __errno
+ .text.malloc   0x000000000800631c       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+                0x000000000800631c                malloc
+ .text.memcpy   0x000000000800632c       0x16 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x000000000800632c                memcpy
+ *fill*         0x0000000008006342        0x2 
+ .text._free_r  0x0000000008006344       0x98 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008006344                _free_r
  .text._malloc_r
-                0x0000000008006404       0xbc /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008006404                _malloc_r
- .text.realloc  0x00000000080064c0       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
-                0x00000000080064c0                realloc
- .text._sbrk_r  0x00000000080064d0       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
-                0x00000000080064d0                _sbrk_r
- .text          0x00000000080064f0       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen.o)
-                0x00000000080064f0                strlen
+                0x00000000080063dc       0xbc /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080063dc                _malloc_r
+ .text.realloc  0x0000000008006498       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
+                0x0000000008006498                realloc
+ .text._sbrk_r  0x00000000080064a8       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+                0x00000000080064a8                _sbrk_r
+ .text          0x00000000080064c8       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen.o)
+                0x00000000080064c8                strlen
  .text._vsnprintf_r
-                0x0000000008006500       0x58 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
-                0x0000000008006500                _vsnprintf_r
-                0x0000000008006500                _vsniprintf_r
+                0x00000000080064d8       0x58 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
+                0x00000000080064d8                _vsnprintf_r
+                0x00000000080064d8                _vsniprintf_r
  .text.vsnprintf
-                0x0000000008006558       0x1c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
-                0x0000000008006558                vsnprintf
-                0x0000000008006558                vsniprintf
+                0x0000000008006530       0x1c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
+                0x0000000008006530                vsnprintf
+                0x0000000008006530                vsniprintf
  .text.__malloc_lock
-                0x0000000008006574        0x2 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008006574                __malloc_lock
+                0x000000000800654c        0x2 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000800654c                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008006576        0x2 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008006576                __malloc_unlock
+                0x000000000800654e        0x2 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000800654e                __malloc_unlock
  .text._realloc_r
-                0x0000000008006578       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008006578                _realloc_r
+                0x0000000008006550       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008006550                _realloc_r
  .text.__ssputs_r
-                0x00000000080065c4       0xb6 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x00000000080065c4                __ssputs_r
- *fill*         0x000000000800667a        0x2 
+                0x000000000800659c       0xb6 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800659c                __ssputs_r
+ *fill*         0x0000000008006652        0x2 
  .text._svfprintf_r
-                0x000000000800667c      0x1e8 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000800667c                _svfprintf_r
-                0x000000000800667c                _svfiprintf_r
+                0x0000000008006654      0x1e8 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008006654                _svfprintf_r
+                0x0000000008006654                _svfiprintf_r
  .text._printf_common
-                0x0000000008006864       0xee /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006864                _printf_common
- *fill*         0x0000000008006952        0x2 
+                0x000000000800683c       0xee /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800683c                _printf_common
+ *fill*         0x000000000800692a        0x2 
  .text._printf_i
-                0x0000000008006954      0x240 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006954                _printf_i
- .text.memchr   0x0000000008006b94       0x1c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
-                0x0000000008006b94                memchr
- .text.memmove  0x0000000008006bb0       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
-                0x0000000008006bb0                memmove
+                0x000000000800692c      0x240 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800692c                _printf_i
+ .text.memchr   0x0000000008006b6c       0x1c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+                0x0000000008006b6c                memchr
+ .text.memmove  0x0000000008006b88       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+                0x0000000008006b88                memmove
  .text._malloc_usable_size_r
-                0x0000000008006be4       0x12 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
-                0x0000000008006be4                _malloc_usable_size_r
+                0x0000000008006bbc       0x12 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+                0x0000000008006bbc                _malloc_usable_size_r
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x0000000008006bf6        0x2 
+ *fill*         0x0000000008006bce        0x2 
  .rodata.GPIO_DeInit.str1.4
-                0x0000000008006bf8       0x31 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
- *fill*         0x0000000008006c29        0x3 
+                0x0000000008006bd0       0x31 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
+ *fill*         0x0000000008006c01        0x3 
  .rodata.RCC_HSEConfig.str1.4
-                0x0000000008006c2c       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
+                0x0000000008006c04       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
  .rodata.SPI_I2S_DeInit.str1.4
-                0x0000000008006c5c       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
+                0x0000000008006c34       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
  .rodata.TIM_DeInit.str1.4
-                0x0000000008006c8c       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
+                0x0000000008006c64       0x30 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
  .rodata.USART_DeInit.str1.4
-                0x0000000008006cbc       0x32 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
- *fill*         0x0000000008006cee        0x2 
+                0x0000000008006c94       0x32 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
+ *fill*         0x0000000008006cc6        0x2 
  .rodata.abort.str1.4
-                0x0000000008006cf0       0x14 ./system/src/newlib/_exit.o
+                0x0000000008006cc8       0x14 ./system/src/newlib/_exit.o
  .rodata.assert_failed.str1.4
-                0x0000000008006d04       0x2b ./system/src/newlib/assert.o
+                0x0000000008006cdc       0x2b ./system/src/newlib/assert.o
  .rodata.trace_puts.str1.4
-                0x0000000008006d2f       0x2b ./system/src/diag/Trace.o
+                0x0000000008006d07       0x2b ./system/src/diag/Trace.o
                                           0x2 (size before relaxing)
- *fill*         0x0000000008006d2f        0x1 
+ *fill*         0x0000000008006d07        0x1 
  .rodata.dumpExceptionStack.str1.4
-                0x0000000008006d30      0x11a ./system/src/cortexm/exception_handlers.o
- *fill*         0x0000000008006e4a        0x2 
+                0x0000000008006d08      0x11a ./system/src/cortexm/exception_handlers.o
+ *fill*         0x0000000008006e22        0x2 
  .rodata.str1.4
-                0x0000000008006e4c       0x2a ./system/src/cortexm/exception_handlers.o
- *fill*         0x0000000008006e76        0x2 
+                0x0000000008006e24       0x2a ./system/src/cortexm/exception_handlers.o
+ *fill*         0x0000000008006e4e        0x2 
  .rodata._ZTVN8std_msgs4TimeE
-                0x0000000008006e78       0x18 ./src/main.o
-                0x0000000008006e78                vtable for std_msgs::Time
+                0x0000000008006e50       0x18 ./src/main.o
+                0x0000000008006e50                vtable for std_msgs::Time
  .rodata._ZTVN14rosserial_msgs9TopicInfoE
-                0x0000000008006e90       0x18 ./src/main.o
-                0x0000000008006e90                vtable for rosserial_msgs::TopicInfo
+                0x0000000008006e68       0x18 ./src/main.o
+                0x0000000008006e68                vtable for rosserial_msgs::TopicInfo
  .rodata._ZTVN14rosserial_msgs3LogE
-                0x0000000008006ea8       0x18 ./src/main.o
-                0x0000000008006ea8                vtable for rosserial_msgs::Log
+                0x0000000008006e80       0x18 ./src/main.o
+                0x0000000008006e80                vtable for rosserial_msgs::Log
  .rodata._ZTVN14rosserial_msgs20RequestParamResponseE
-                0x0000000008006ec0       0x18 ./src/main.o
-                0x0000000008006ec0                vtable for rosserial_msgs::RequestParamResponse
+                0x0000000008006e98       0x18 ./src/main.o
+                0x0000000008006e98                vtable for rosserial_msgs::RequestParamResponse
  .rodata._ZTVN8std_msgs6UInt32E
-                0x0000000008006ed8       0x18 ./src/main.o
-                0x0000000008006ed8                vtable for std_msgs::UInt32
+                0x0000000008006eb0       0x18 ./src/main.o
+                0x0000000008006eb0                vtable for std_msgs::UInt32
  .rodata._ZTVN8std_msgs6HeaderE
-                0x0000000008006ef0       0x18 ./src/main.o
-                0x0000000008006ef0                vtable for std_msgs::Header
+                0x0000000008006ec8       0x18 ./src/main.o
+                0x0000000008006ec8                vtable for std_msgs::Header
  .rodata._ZTVN13geometry_msgs5PointE
-                0x0000000008006f08       0x18 ./src/main.o
-                0x0000000008006f08                vtable for geometry_msgs::Point
+                0x0000000008006ee0       0x18 ./src/main.o
+                0x0000000008006ee0                vtable for geometry_msgs::Point
  .rodata._ZTVN13geometry_msgs10QuaternionE
-                0x0000000008006f20       0x18 ./src/main.o
-                0x0000000008006f20                vtable for geometry_msgs::Quaternion
+                0x0000000008006ef8       0x18 ./src/main.o
+                0x0000000008006ef8                vtable for geometry_msgs::Quaternion
  .rodata._ZTVN13geometry_msgs4PoseE
-                0x0000000008006f38       0x18 ./src/main.o
-                0x0000000008006f38                vtable for geometry_msgs::Pose
+                0x0000000008006f10       0x18 ./src/main.o
+                0x0000000008006f10                vtable for geometry_msgs::Pose
  .rodata._ZTVN13geometry_msgs11PoseStampedE
-                0x0000000008006f50       0x18 ./src/main.o
-                0x0000000008006f50                vtable for geometry_msgs::PoseStamped
+                0x0000000008006f28       0x18 ./src/main.o
+                0x0000000008006f28                vtable for geometry_msgs::PoseStamped
  .rodata._ZTVN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EEE
-                0x0000000008006f68       0x14 ./src/main.o
-                0x0000000008006f68                vtable for ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>
+                0x0000000008006f40       0x14 ./src/main.o
+                0x0000000008006f40                vtable for ros::NodeHandle_<STM32Hardware, 25, 25, 1024, 1024>
  .rodata.USART1_IRQHandler.str1.4
-                0x0000000008006f7c        0xc ./src/main.o
+                0x0000000008006f54        0xc ./src/main.o
  .rodata._Z41__static_initialization_and_destruction_0ii.str1.4
-                0x0000000008006f88       0x1d ./src/main.o
-                                         0x21 (size before relaxing)
- *fill*         0x0000000008006fa5        0x3 
+                0x0000000008006f60       0x1d ./src/main.o
+ *fill*         0x0000000008006f7d        0x3 
  .rodata._ZN13geometry_msgs10Quaternion6getMD5Ev.str1.4
-                0x0000000008006fa8       0x21 ./src/main.o
- *fill*         0x0000000008006fc9        0x3 
+                0x0000000008006f80       0x21 ./src/main.o
+ *fill*         0x0000000008006fa1        0x3 
  .rodata._ZN13geometry_msgs10Quaternion7getTypeEv.str1.4
-                0x0000000008006fcc       0x19 ./src/main.o
- *fill*         0x0000000008006fe5        0x3 
+                0x0000000008006fa4       0x19 ./src/main.o
+ *fill*         0x0000000008006fbd        0x3 
  .rodata._ZN13geometry_msgs11PoseStamped6getMD5Ev.str1.4
-                0x0000000008006fe8       0x21 ./src/main.o
- *fill*         0x0000000008007009        0x3 
+                0x0000000008006fc0       0x21 ./src/main.o
+ *fill*         0x0000000008006fe1        0x3 
  .rodata._ZN13geometry_msgs11PoseStamped7getTypeEv.str1.4
-                0x000000000800700c       0x1a ./src/main.o
- *fill*         0x0000000008007026        0x2 
+                0x0000000008006fe4       0x1a ./src/main.o
+ *fill*         0x0000000008006ffe        0x2 
  .rodata._ZN13geometry_msgs4Pose6getMD5Ev.str1.4
-                0x0000000008007028       0x21 ./src/main.o
- *fill*         0x0000000008007049        0x3 
+                0x0000000008007000       0x21 ./src/main.o
+ *fill*         0x0000000008007021        0x3 
  .rodata._ZN13geometry_msgs4Pose7getTypeEv.str1.4
-                0x000000000800704c       0x13 ./src/main.o
- *fill*         0x000000000800705f        0x1 
+                0x0000000008007024       0x13 ./src/main.o
+ *fill*         0x0000000008007037        0x1 
  .rodata._ZN13geometry_msgs5Point6getMD5Ev.str1.4
-                0x0000000008007060       0x21 ./src/main.o
- *fill*         0x0000000008007081        0x3 
+                0x0000000008007038       0x21 ./src/main.o
+ *fill*         0x0000000008007059        0x3 
  .rodata._ZN13geometry_msgs5Point7getTypeEv.str1.4
-                0x0000000008007084       0x14 ./src/main.o
+                0x000000000800705c       0x14 ./src/main.o
  .rodata._ZN14rosserial_msgs20RequestParamResponse6getMD5Ev.str1.4
-                0x0000000008007098       0x21 ./src/main.o
- *fill*         0x00000000080070b9        0x3 
+                0x0000000008007070       0x21 ./src/main.o
+ *fill*         0x0000000008007091        0x3 
  .rodata._ZN14rosserial_msgs3Log6getMD5Ev.str1.4
-                0x00000000080070bc       0x21 ./src/main.o
- *fill*         0x00000000080070dd        0x3 
+                0x0000000008007094       0x21 ./src/main.o
+ *fill*         0x00000000080070b5        0x3 
  .rodata._ZN14rosserial_msgs3Log7getTypeEv.str1.4
-                0x00000000080070e0       0x13 ./src/main.o
- *fill*         0x00000000080070f3        0x1 
+                0x00000000080070b8       0x13 ./src/main.o
+ *fill*         0x00000000080070cb        0x1 
  .rodata._ZN14rosserial_msgs9TopicInfo6getMD5Ev.str1.4
-                0x00000000080070f4       0x21 ./src/main.o
- *fill*         0x0000000008007115        0x3 
+                0x00000000080070cc       0x21 ./src/main.o
+ *fill*         0x00000000080070ed        0x3 
  .rodata._ZN14rosserial_msgs9TopicInfo7getTypeEv.str1.4
-                0x0000000008007118       0x19 ./src/main.o
- *fill*         0x0000000008007131        0x3 
+                0x00000000080070f0       0x19 ./src/main.o
+ *fill*         0x0000000008007109        0x3 
  .rodata._ZN14rosserial_msgsL12REQUESTPARAME
-                0x0000000008007134       0x1c ./src/main.o
+                0x000000000800710c       0x1c ./src/main.o
  .rodata._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE7publishEiPKNS_3MsgE.str1.4
-                0x0000000008007150       0x45 ./src/main.o
- *fill*         0x0000000008007195        0x3 
+                0x0000000008007128       0x45 ./src/main.o
+ .rodata._ZN3ros11NodeHandle_I13STM32HardwareLi25ELi25ELi1024ELi1024EE8spinOnceEv.str1.4
+                0x000000000800716d       0x45 ./src/main.o
+                                          0x1 (size before relaxing)
+ *fill*         0x000000000800716d        0x3 
  .rodata._ZN8std_msgs4Time6getMD5Ev.str1.4
-                0x0000000008007198       0x21 ./src/main.o
- *fill*         0x00000000080071b9        0x3 
+                0x0000000008007170       0x21 ./src/main.o
+ *fill*         0x0000000008007191        0x3 
  .rodata._ZN8std_msgs4Time7getTypeEv.str1.4
-                0x00000000080071bc        0xe ./src/main.o
- *fill*         0x00000000080071ca        0x2 
+                0x0000000008007194        0xe ./src/main.o
+ *fill*         0x00000000080071a2        0x2 
  .rodata._ZN8std_msgs6Header6getMD5Ev.str1.4
-                0x00000000080071cc       0x21 ./src/main.o
- *fill*         0x00000000080071ed        0x3 
+                0x00000000080071a4       0x21 ./src/main.o
+ *fill*         0x00000000080071c5        0x3 
  .rodata._ZN8std_msgs6Header7getTypeEv.str1.4
-                0x00000000080071f0       0x10 ./src/main.o
+                0x00000000080071c8       0x10 ./src/main.o
  .rodata._ZN8std_msgs6UInt326getMD5Ev.str1.4
-                0x0000000008007200       0x21 ./src/main.o
- *fill*         0x0000000008007221        0x3 
+                0x00000000080071d8       0x21 ./src/main.o
+ *fill*         0x00000000080071f9        0x3 
  .rodata._ZN8std_msgs6UInt327getTypeEv.str1.4
-                0x0000000008007224       0x10 ./src/main.o
+                0x00000000080071fc       0x10 ./src/main.o
  .rodata.main.str1.4
-                0x0000000008007234        0x8 ./src/main.o
+                0x000000000800720c        0x8 ./src/main.o
                                           0x5 (size before relaxing)
  .rodata.npio2_hw
-                0x000000000800723c       0x80 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+                0x0000000008007214       0x80 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
  .rodata.two_over_pi
-                0x00000000080072bc      0x108 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
- *fill*         0x00000000080073c4        0x4 
- .rodata.PIo2   0x00000000080073c8       0x40 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x0000000008007294      0x108 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+ *fill*         0x000000000800739c        0x4 
+ .rodata.PIo2   0x00000000080073a0       0x40 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
  .rodata.init_jk
-                0x0000000008007408       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x00000000080073e0       0x10 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
  .rodata._svfprintf_r.str1.1
-                0x0000000008007418       0x11 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000080073f0       0x11 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008007429       0x22 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008007401       0x22 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x000000000800744b        0x0 linker stubs
+ .glue_7        0x0000000008007423        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800744b        0x0 linker stubs
+ .glue_7t       0x0000000008007423        0x0 linker stubs
 
-.vfp11_veneer   0x000000000800744c        0x0
- .vfp11_veneer  0x000000000800744c        0x0 linker stubs
+.vfp11_veneer   0x0000000008007424        0x0
+ .vfp11_veneer  0x0000000008007424        0x0 linker stubs
 
-.v4_bx          0x000000000800744c        0x0
- .v4_bx         0x000000000800744c        0x0 linker stubs
+.v4_bx          0x0000000008007424        0x0
+ .v4_bx         0x0000000008007424        0x0 linker stubs
 
-.iplt           0x000000000800744c        0x0
- .iplt          0x000000000800744c        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.iplt           0x0000000008007424        0x0
+ .iplt          0x0000000008007424        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
-.rel.dyn        0x000000000800744c        0x0
- .rel.iplt      0x000000000800744c        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.rel.dyn        0x0000000008007424        0x0
+ .rel.iplt      0x0000000008007424        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800744c                . = ALIGN (0x4)
-                0x000000000800744c                __exidx_start = .
+                0x0000000008007424                . = ALIGN (0x4)
+                0x0000000008007424                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000000000800744c                __exidx_end = .
-                0x000000000800744c                . = ALIGN (0x4)
-                0x000000000800744c                _etext = .
-                0x000000000800744c                __etext = .
+                0x0000000008007424                __exidx_end = .
+                0x0000000008007424                . = ALIGN (0x4)
+                0x0000000008007424                _etext = .
+                0x0000000008007424                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x000000000800744c
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008007424
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x000000000800744c                _sidata = LOADADDR (.data)
+                0x0000000008007424                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x9c load address 0x000000000800744c
+.data           0x0000000020000000       0x9c load address 0x0000000008007424
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -5329,7 +5255,7 @@ END GROUP
                 0x000000002000009c                _edata = .
                 0x000000002000009c                __data_end__ = .
 
-.igot.plt       0x000000002000009c        0x0 load address 0x00000000080074e8
+.igot.plt       0x000000002000009c        0x0 load address 0x00000000080074c0
  .igot.plt      0x000000002000009c        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .bss_CCMRAM     0x0000000000000000        0x0
@@ -5351,11 +5277,11 @@ END GROUP
  .bss._ZN5Timer12currentTicksE
                 0x0000000020000130        0x8 ./src/Timer.o
                 0x0000000020000130                Timer::currentTicks
- .bss._ZN4Uart5Uart1E
-                0x0000000020000138        0x4 ./src/UartWithBuffer.o
-                0x0000000020000138                Uart::Uart1
  .bss._ZL6movavg
+                0x0000000020000138        0x4 ./src/main.o
+ .bss._ZN4Uart5Uart1E
                 0x000000002000013c        0x4 ./src/main.o
+                0x000000002000013c                Uart::Uart1
  .bss.mpu9250   0x0000000020000140        0x4 ./src/main.o
                 0x0000000020000140                mpu9250
  .bss.nh        0x0000000020000144      0x930 ./src/main.o
@@ -5477,7 +5403,6 @@ END GROUP
  .comment       0x000000000000007f       0x80 ./src/Init.o
  .comment       0x000000000000007f       0x80 ./src/MPU9250.o
  .comment       0x000000000000007f       0x80 ./src/Timer.o
- .comment       0x000000000000007f       0x80 ./src/UartWithBuffer.o
  .comment       0x000000000000007f       0x80 ./src/main.o
 
 .ARM.attributes
@@ -5523,83 +5448,81 @@ END GROUP
  .ARM.attributes
                 0x00000000000003c9       0x33 ./src/Timer.o
  .ARM.attributes
-                0x00000000000003fc       0x33 ./src/UartWithBuffer.o
+                0x00000000000003fc       0x33 ./src/main.o
  .ARM.attributes
-                0x000000000000042f       0x33 ./src/main.o
+                0x000000000000042f       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
  .ARM.attributes
-                0x0000000000000462       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
+                0x000000000000045c       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
  .ARM.attributes
-                0x000000000000048f       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
+                0x0000000000000489       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
  .ARM.attributes
-                0x00000000000004bc       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
+                0x00000000000004b6       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
  .ARM.attributes
-                0x00000000000004e9       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+                0x00000000000004e3       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
  .ARM.attributes
-                0x0000000000000516       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+                0x0000000000000510       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
  .ARM.attributes
-                0x0000000000000543       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+                0x000000000000053d       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
  .ARM.attributes
-                0x0000000000000570       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+                0x000000000000056a       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
  .ARM.attributes
-                0x000000000000059d       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x0000000000000597       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
  .ARM.attributes
-                0x00000000000005ca       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+                0x00000000000005c4       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .ARM.attributes
-                0x00000000000005f7       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+                0x00000000000005f1       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
  .ARM.attributes
-                0x0000000000000624       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+                0x000000000000061e       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
  .ARM.attributes
-                0x0000000000000651       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+                0x000000000000064b       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
  .ARM.attributes
-                0x000000000000067e       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+                0x0000000000000678       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000000000006ab       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000000000695       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000000000006c8       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x00000000000006b2       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000000000006e5       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x00000000000006cf       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x0000000000000702       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x00000000000006ec       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x000000000000071f       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000000709       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x000000000000073c       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000000000726       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x0000000000000759       0x1d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
+                0x0000000000000743       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000776       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
+                0x0000000000000770       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000000007a3       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                0x000000000000079d       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000000000007d0       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+                0x00000000000007ca       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000000000007fd       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000007f7       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x000000000000082a       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000000000824       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000857       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000851       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
  .ARM.attributes
-                0x0000000000000884       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
+                0x000000000000087e       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000008b1       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+                0x00000000000008ab       0x17 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000000000008de       0x17 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen.o)
+                0x00000000000008c2       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x00000000000008f5       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
+                0x00000000000008ef       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000922       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000000091c       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x000000000000094f       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+                0x0000000000000949       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x000000000000097c       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000000976       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000000000009a9       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000009a3       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000000000009d6       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+                0x00000000000009d0       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000000000000a03       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
- .ARM.attributes
-                0x0000000000000a30       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+                0x00000000000009fd       0x2d /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
 
 .debug
  *(.debug)
@@ -5613,7 +5536,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0xbc8
+.debug_aranges  0x0000000000000000      0xba0
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0xa8 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
@@ -5656,14 +5579,12 @@ END GROUP
  .debug_aranges
                 0x0000000000000990       0x28 ./src/Timer.o
  .debug_aranges
-                0x00000000000009b8       0x38 ./src/UartWithBuffer.o
- .debug_aranges
-                0x00000000000009f0      0x1d8 ./src/main.o
+                0x00000000000009b8      0x1e8 ./src/main.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x18f86
+.debug_info     0x0000000000000000    0x18a8d
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xbd6 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_info    0x0000000000000bd6      0xc7b ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5685,10 +5606,9 @@ END GROUP
  .debug_info    0x000000000000e433      0x9c9 ./src/Init.o
  .debug_info    0x000000000000edfc      0x853 ./src/MPU9250.o
  .debug_info    0x000000000000f64f      0x1c6 ./src/Timer.o
- .debug_info    0x000000000000f815      0x6f3 ./src/UartWithBuffer.o
- .debug_info    0x000000000000ff08     0x907e ./src/main.o
+ .debug_info    0x000000000000f815     0x9278 ./src/main.o
 
-.debug_abbrev   0x0000000000000000     0x354e
+.debug_abbrev   0x0000000000000000     0x32e9
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x205 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_abbrev  0x0000000000000205      0x209 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5710,10 +5630,9 @@ END GROUP
  .debug_abbrev  0x00000000000021b2      0x15a ./src/Init.o
  .debug_abbrev  0x000000000000230c      0x294 ./src/MPU9250.o
  .debug_abbrev  0x00000000000025a0      0x192 ./src/Timer.o
- .debug_abbrev  0x0000000000002732      0x29c ./src/UartWithBuffer.o
- .debug_abbrev  0x00000000000029ce      0xb80 ./src/main.o
+ .debug_abbrev  0x0000000000002732      0xbb7 ./src/main.o
 
-.debug_line     0x0000000000000000     0xa419
+.debug_line     0x0000000000000000     0x9e11
  *(.debug_line)
  .debug_line    0x0000000000000000      0x8ed ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_line    0x00000000000008ed      0x84b ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5735,10 +5654,9 @@ END GROUP
  .debug_line    0x00000000000079d8      0x394 ./src/Init.o
  .debug_line    0x0000000000007d6c      0x3fb ./src/MPU9250.o
  .debug_line    0x0000000000008167      0x396 ./src/Timer.o
- .debug_line    0x00000000000084fd      0x65c ./src/UartWithBuffer.o
- .debug_line    0x0000000000008b59     0x18c0 ./src/main.o
+ .debug_line    0x00000000000084fd     0x1914 ./src/main.o
 
-.debug_frame    0x0000000000000000     0x295c
+.debug_frame    0x0000000000000000     0x291c
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x1e8 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_frame   0x00000000000001e8      0x320 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5760,45 +5678,44 @@ END GROUP
  .debug_frame   0x000000000000199c       0x70 ./src/Init.o
  .debug_frame   0x0000000000001a0c       0xd4 ./src/MPU9250.o
  .debug_frame   0x0000000000001ae0       0x30 ./src/Timer.o
- .debug_frame   0x0000000000001b10       0x6c ./src/UartWithBuffer.o
- .debug_frame   0x0000000000001b7c      0x55c ./src/main.o
- .debug_frame   0x00000000000020d8       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
- .debug_frame   0x0000000000002100       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
- .debug_frame   0x0000000000002120       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
- .debug_frame   0x0000000000002150       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
- .debug_frame   0x0000000000002188       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
- .debug_frame   0x00000000000021c0       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
- .debug_frame   0x0000000000002208       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
- .debug_frame   0x0000000000002254       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
- .debug_frame   0x00000000000022a4       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
- .debug_frame   0x00000000000022ec       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
- .debug_frame   0x000000000000230c       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
- .debug_frame   0x0000000000002340       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
- .debug_frame   0x0000000000002370       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
- .debug_frame   0x0000000000002390       0xac /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000000000000243c       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x000000000000248c       0xc4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x0000000000002550       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x0000000000002574       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00000000000025c0       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00000000000025f8       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x000000000000261c       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x000000000000263c       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x000000000000266c       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000002694       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000000000026cc       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000000026f8       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
- .debug_frame   0x0000000000002718       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000002744       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x0000000000002790       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000000027c0       0x3c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000000000027fc       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x000000000000288c       0x60 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000028ec       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000002914       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x000000000000293c       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000001b10      0x588 ./src/main.o
+ .debug_frame   0x0000000000002098       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_op.o)
+ .debug_frame   0x00000000000020c0       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_opv.o)
+ .debug_frame   0x00000000000020e0       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(new_handler.o)
+ .debug_frame   0x0000000000002110       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+ .debug_frame   0x0000000000002148       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+ .debug_frame   0x0000000000002180       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+ .debug_frame   0x00000000000021c8       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+ .debug_frame   0x0000000000002214       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+ .debug_frame   0x0000000000002264       0x48 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+ .debug_frame   0x00000000000022ac       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x00000000000022cc       0x34 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .debug_frame   0x0000000000002300       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000000000002330       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x0000000000002350       0xac /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000000023fc       0x50 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000000000000244c       0xc4 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000002510       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000002534       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000002580       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000000000025b8       0x24 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000000000025dc       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000000025fc       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x000000000000262c       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000002654       0x38 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x000000000000268c       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000026b8       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-realloc.o)
+ .debug_frame   0x00000000000026d8       0x2c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000002704       0x4c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x0000000000002750       0x30 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000002780       0x3c /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000027bc       0x90 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000000000000284c       0x60 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000028ac       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000000000028d4       0x28 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000000000028fc       0x20 /home/yusaku/eclipse/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x0000000000000000    0x5e89b
+.debug_str      0x0000000000000000    0x5e872
  *(.debug_str)
  .debug_str     0x0000000000000000    0x4e3f4 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
                                       0x4e5d2 (size before relaxing)
@@ -5840,12 +5757,10 @@ END GROUP
                                       0x4f47b (size before relaxing)
  .debug_str     0x000000000005b8bd       0xd1 ./src/Timer.o
                                       0x4e416 (size before relaxing)
- .debug_str     0x000000000005b98e      0x566 ./src/UartWithBuffer.o
-                                      0x52757 (size before relaxing)
- .debug_str     0x000000000005bef4     0x29a7 ./src/main.o
-                                      0x5a4c7 (size before relaxing)
+ .debug_str     0x000000000005b98e     0x2ee4 ./src/main.o
+                                      0x5a574 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x81a9
+.debug_loc      0x0000000000000000     0x8141
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x8ae ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_loc     0x00000000000008ae      0x9cf ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5863,8 +5778,7 @@ END GROUP
  .debug_loc     0x00000000000057c1      0x106 ./src/ros_lib/time.o
  .debug_loc     0x00000000000058c7      0x2a9 ./src/MPU9250.o
  .debug_loc     0x0000000000005b70       0x28 ./src/Timer.o
- .debug_loc     0x0000000000005b98      0x14f ./src/UartWithBuffer.o
- .debug_loc     0x0000000000005ce7     0x24c2 ./src/main.o
+ .debug_loc     0x0000000000005b98     0x25a9 ./src/main.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -5882,7 +5796,7 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(NHK2018_Odometry.elf elf32-littlearm)
 
-.debug_ranges   0x0000000000000000      0xcf0
+.debug_ranges   0x0000000000000000      0xcd8
  .debug_ranges  0x0000000000000000       0x98 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_ranges  0x0000000000000098      0x108 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
  .debug_ranges  0x00000000000001a0       0xc0 ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
@@ -5903,10 +5817,9 @@ OUTPUT(NHK2018_Odometry.elf elf32-littlearm)
  .debug_ranges  0x0000000000000860       0x20 ./src/Init.o
  .debug_ranges  0x0000000000000880       0x40 ./src/MPU9250.o
  .debug_ranges  0x00000000000008c0       0x18 ./src/Timer.o
- .debug_ranges  0x00000000000008d8       0x28 ./src/UartWithBuffer.o
- .debug_ranges  0x0000000000000900      0x3f0 ./src/main.o
+ .debug_ranges  0x00000000000008d8      0x400 ./src/main.o
 
-.debug_macro    0x0000000000000000     0x5b63
+.debug_macro    0x0000000000000000     0x6364
  .debug_macro   0x0000000000000000      0x1b9 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_macro   0x00000000000001b9      0x2a6 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
  .debug_macro   0x000000000000045f      0x287 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
@@ -5965,14 +5878,13 @@ OUTPUT(NHK2018_Odometry.elf elf32-littlearm)
  .debug_macro   0x0000000000004345       0x34 ./system/src/cmsis/vectors_stm32f10x.o
  .debug_macro   0x0000000000004379      0x150 ./src/ros_lib/time.o
  .debug_macro   0x00000000000044c9      0x165 ./src/Init.o
- .debug_macro   0x000000000000462e      0x182 ./src/MPU9250.o
- .debug_macro   0x00000000000047b0      0x383 ./src/MPU9250.o
- .debug_macro   0x0000000000004b33      0x17e ./src/Timer.o
- .debug_macro   0x0000000000004cb1       0x10 ./src/Timer.o
- .debug_macro   0x0000000000004cc1      0x2c8 ./src/UartWithBuffer.o
- .debug_macro   0x0000000000004f89       0xc5 ./src/UartWithBuffer.o
- .debug_macro   0x000000000000504e      0x599 ./src/main.o
- .debug_macro   0x00000000000055e7       0x97 ./src/main.o
- .debug_macro   0x000000000000567e      0x104 ./src/main.o
- .debug_macro   0x0000000000005782       0x58 ./src/main.o
- .debug_macro   0x00000000000057da      0x389 ./src/main.o
+ .debug_macro   0x000000000000462e      0xb8e ./src/Init.o
+ .debug_macro   0x00000000000051bc      0x182 ./src/MPU9250.o
+ .debug_macro   0x000000000000533e      0x383 ./src/MPU9250.o
+ .debug_macro   0x00000000000056c1      0x17e ./src/Timer.o
+ .debug_macro   0x000000000000583f       0x10 ./src/Timer.o
+ .debug_macro   0x000000000000584f      0x599 ./src/main.o
+ .debug_macro   0x0000000000005de8       0x97 ./src/main.o
+ .debug_macro   0x0000000000005e7f      0x104 ./src/main.o
+ .debug_macro   0x0000000000005f83       0x58 ./src/main.o
+ .debug_macro   0x0000000000005fdb      0x389 ./src/main.o
