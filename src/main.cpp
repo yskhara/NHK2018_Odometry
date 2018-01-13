@@ -46,7 +46,7 @@ MPU9250 *mpu9250 = nullptr;
 // radius of wheels in metre
 static constexpr double WheelRadius = 0.024;
 // pulse/rev
-static constexpr double PulsePerRevolution = 100 * 4;
+static constexpr double PulsePerRevolution = 500.0 * 4;
 /// Kpd = 2_pi_r[mm/rev] / Kp[pulse/rev]
 static constexpr double MmPerPulse = 2.0 * (double)M_PI * WheelRadius / PulsePerRevolution;
 
@@ -108,7 +108,7 @@ void ReadEncoders(void)
 
 	volatile int16_t _p1, _p2;
 	_p1 = (int16_t)(TIM2->CNT);
-	_p2 = (int16_t)(TIM3->CNT);
+	_p2 = -(int16_t)(TIM3->CNT);
 
 	TIM2->CNT = 0;
 	TIM3->CNT = 0;
@@ -209,8 +209,8 @@ int main(void)
 			//x_pub.publish(&x_msg);
 			//y_pub.publish(&y_msg);
 			//yaw_pub.publish(&yaw_msg);
-			txbufcnt_msg.data = Uart::Uart1->Tx_Count();
-			txbufcnt_pub.publish(&txbufcnt_msg);
+			//txbufcnt_msg.data = Uart::Uart1->Tx_Count();
+			//txbufcnt_pub.publish(&txbufcnt_msg);
 
 			last_time = current_time;
 		}
