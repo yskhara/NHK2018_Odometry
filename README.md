@@ -1,2 +1,2 @@
 # NHK2018_Odometry
-odometry node on stm32f1
+odometry node for stm32f103
