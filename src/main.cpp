@@ -30,7 +30,7 @@ geometry_msgs::Pose2D pose_delta_msg;
 //ros::Publisher x_pub("/x_enc", &x_msg);
 //ros::Publisher y_pub("/y_enc", &y_msg);
 //ros::Publisher yaw_pub("/yaw_imu", &yaw_msg);
-ros::Publisher pose_pub("/nav/pose_delta", &pose_delta_msg);
+ros::Publisher pose_delta_pub("/nav/pose_delta", &pose_delta_msg);
 //ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
 //ros::Publisher orientation_pub("orientation", &orientation_msg);
 
@@ -40,12 +40,12 @@ MPU9250 *mpu9250 = nullptr;
 
 #define SPI_MPU9250 (SPI2)
 
-// radius of wheels in metre
-static constexpr double WheelRadius = 0.024;
+// diameter of wheels in metre
+static constexpr double WheelDiameter = 0.024;
 // pulse/rev
 static constexpr double PulsePerRevolution = 500.0 * 4;
 /// Kpd = 2_pi_r[mm/rev] / Kp[pulse/rev]
-static constexpr double MmPerPulse = 2.0 * (double)M_PI * WheelRadius / PulsePerRevolution;
+static constexpr double MPerPulse = (double)M_PI * WheelDiameter / PulsePerRevolution;
 
 static constexpr int32_t SamplingFrequency = 200;
 
@@ -101,36 +101,27 @@ bool InitGyro(void)
 
 void ReadEncoders(void)
 {
-
-<<<<<<< HEAD
 	volatile int16_t _p1 = static_cast<int16_t>(TIM2->CNT);
-=======
-	volatile int16_t _p1, _p2;
-	_p1 = (int16_t)(TIM2->CNT);
->>>>>>> stash
 	TIM2->CNT = 0;
 
-<<<<<<< HEAD
 	volatile int16_t _p2 = static_cast<int16_t>(TIM3->CNT);
-=======
-	_p2 = -(int16_t)(TIM3->CNT);
->>>>>>> stash
 	TIM3->CNT = 0;
 
 	// just a simple rotation matrix
-	// translate encoder rate to x-y plane
+	// translate encoder rates to velocity on x-y plane
 	double _yaw = yaw + (M_PI / 4.0);
 	double _cos = cos(_yaw);
 	double _sin = sin(_yaw);
 
-	x += ((_p1 * _cos) - (_p2 * _sin)) * MPerSecPerPulse;
-	y += ((_p1 * _sin) + (_p2 * _cos)) * MPerSecPerPulse;
+	x += ((_p1 * _cos) - (_p2 * _sin)) * MPerPulse;
+	y += ((_p1 * _sin) + (_p2 * _cos)) * MPerPulse;
 }
 
 void ReadGyro(void)
 {
 	static constexpr int32_t movband = 100;
-	static constexpr float RadPerMilliDeg = M_PI / 180000.0;
+	static constexpr double RadPerMilliDeg = M_PI / 180000.0;
+	static constexpr double RadPerMilliDegPerSec = RadPerMilliDeg / SamplingFrequency;
 	static constexpr float w = 0.01f;
 
 	int dy_raw_mdps = (((int16_t)mpu9250->WriteWord(READ_FLAG | MPUREG_GYRO_ZOUT_H, 0x0000)) * 1000 / SensitivityScaleFactor) + 0.5f;
@@ -140,10 +131,8 @@ void ReadGyro(void)
 
 	if(dy_biased_mdps < -movband || movband < dy_biased_mdps)
 	{
-		// yaw is in radian, so, convert from millideg to rad.
-		//yaw_md += (int32_t)((float)((dy_biased_mdps) / SamplingFrequency) + 0.5f);
-		//yaw += (dy_biased_mdps / SamplingFrequency);
-		yaw += dy_biased_mdps * RadPerMilliDeg / SamplingFrequency;
+		// yaw is in radian, so, convert from mdps to radian.
+		yaw += dy_biased_mdps * RadPerMilliDegPerSec;
 	}
 	else
 	{
@@ -172,10 +161,12 @@ int main(void)
 	//nh.advertise(x_pub);
 	//nh.advertise(y_pub);
 	//nh.advertise(yaw_pub);
-	nh.advertise(pose_pub);
+	nh.advertise(pose_delta_pub);
 	//nh.advertise(txbufcnt_pub);
 
-    pose_msg.pose.position.z = 0;
+	pose_delta_msg.x = 0;
+	pose_delta_msg.y = 0;
+	pose_delta_msg.theta = 0;
 
 	ros::Time last_time = nh.now();
 	ros::Time current_time = last_time;//nh.now();
@@ -193,25 +184,15 @@ int main(void)
 		// Send the message every second
 		if(current_time.toSec() - last_time.toSec() > interval)
 		{
-			pose_msg.header.stamp = current_time;
-			pose_msg.pose.position.x = x;
-			pose_msg.pose.position.y = y;
-			pose_msg.pose.position.z = 0;
-			pose_msg.header.frame_id = "odom";
-			pose_msg.pose.orientation = tf::createQuaternionFromYaw(yaw);
-			//pose_msg.pose.orientation.w = yaw;
+			pose_delta_msg.x = x;
+			pose_delta_msg.y = y;
+			pose_delta_msg.theta = yaw;
 
-			pose_pub.publish(&pose_msg);
+			pose_delta_pub.publish(&pose_delta_msg);
 
-			//x_msg.data = x;
-			//y_msg.data = y;
-			//yaw_msg.data = yaw;// * 180 / M_PI;
-
-			//x_pub.publish(&x_msg);
-			//y_pub.publish(&y_msg);
-			//yaw_pub.publish(&yaw_msg);
-			//txbufcnt_msg.data = Uart::Uart1->Tx_Count();
-			//txbufcnt_pub.publish(&txbufcnt_msg);
+			x = 0;
+			y = 0;
+			yaw = 0;
 
 			last_time = current_time;
 		}
