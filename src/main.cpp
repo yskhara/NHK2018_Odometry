@@ -6,17 +6,17 @@
 #include <math.h>
 
 #include "ros.h"
-#include "std_msgs/String.h"
-#include "std_msgs/UInt32.h"
-#include "std_msgs/Float32.h"
-#include "nav_msgs/Odometry.h"
-#include "geometry_msgs/PoseStamped.h"
+//#include "std_msgs/String.h"
+//#include "std_msgs/UInt32.h"
+//#include "std_msgs/Float32.h"
+//#include "nav_msgs/Odometry.h"
+//#include "geometry_msgs/PoseStamped.h"
 #include "geometry_msgs/TwistWithCovarianceStamped.h"
-#include "geometry_msgs/Quaternion.h"
-#include "sensor_msgs/Imu.h"
+//#include "geometry_msgs/Quaternion.h"
+//#include "sensor_msgs/Imu.h"
 #include "Timer.h"
 
-#include "tf/tf.h"
+//#include "tf/tf.h"
 
 #include "stm32f10x_conf.h"
 
@@ -26,7 +26,7 @@
 ros::NodeHandle nh;
 
 geometry_msgs::TwistWithCovarianceStamped twist0_msg;
-sensor_msgs::Imu imu0_msg;
+//sensor_msgs::Imu imu0_msg;
 //std_msgs::Float32 x_msg;
 //std_msgs::Float32 y_msg;
 //std_msgs::Float32 yaw_msg;
@@ -38,8 +38,8 @@ sensor_msgs::Imu imu0_msg;
 //ros::Publisher yaw_pub("/yaw_imu", &yaw_msg);
 //ros::Publisher pose_pub("/localization/pose", &pose_msg);
 //ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
-ros::Publisher twist0_pub("dr/twist", &twist0_msg);
-ros::Publisher imu0_pub("dr/imu", &imu0_msg);
+ros::Publisher twist0_pub("twist", &twist0_msg);
+//ros::Publisher imu0_pub("imu", &imu0_msg);
 
 //char hello[13] = "hello world!";
 
@@ -50,16 +50,21 @@ MPU9250 *mpu9250 = nullptr;
 // radius of wheels in metre
 static constexpr double WheelRadius = 0.024;
 // pulse/rev
-static constexpr double PulsePerRevolution = 100 * 4;	// wanna use 500 p/r ones...
+static constexpr double PulsePerRevolution = 500 * 4;	// wanna use 500 p/r ones...
 /// Kpd = 2_pi_r[mm/rev] / Kp[pulse/rev]
-static constexpr double MmPerPulse = 2.0 * (double)M_PI * WheelRadius / PulsePerRevolution;
+static constexpr double MPerPulse = 2.0 * (double)M_PI * WheelRadius / PulsePerRevolution;
 
 static constexpr int32_t SamplingFrequency = 200;
+//static constexpr double SamplingInterval = 1.0 / SamplingFrequency;
 
-double x = 0;
-double y = 0;
+static constexpr double MPerSecPerPulse = MPerPulse * SamplingFrequency;
+
+double vx = 0;
+double vy = 0;
 // positive for COUNTER-clockwise
-float yaw = 0;
+double vyaw = 0;
+
+int divisor = 0;
 
 static int movavg;
 
@@ -120,13 +125,13 @@ void ReadEncoders(void)
 	double _cos = cos(_yaw);
 	double _sin = sin(_yaw);
 
-	x += ((_p1 * _cos) - (_p2 * _sin)) * MmPerPulse;
-	y += ((_p1 * _sin) + (_p2 * _cos)) * MmPerPulse;
+	vx += ((_p1 * _cos) - (_p2 * _sin)) * MPerSecPerPulse;
+	vy += ((_p1 * _sin) + (_p2 * _cos)) * MPerSecPerPulse;
 }
 
 void ReadGyro(void)
 {
-	static constexpr int32_t movband = 100;
+	static constexpr int movband = 100;
 	static constexpr float RadPerMilliDeg = M_PI / 180000.0;
 	static constexpr float w = 0.01f;
 
@@ -137,10 +142,11 @@ void ReadGyro(void)
 
 	if(dy_biased_mdps < -movband || movband < dy_biased_mdps)
 	{
-		// yaw is in radian, so, convert from millideg to rad.
+		// yaw is in radian, so convert dy from millideg to rad.
 		//yaw_md += (int32_t)((float)((dy_biased_mdps) / SamplingFrequency) + 0.5f);
 		//yaw += (dy_biased_mdps / SamplingFrequency);
-		yaw += dy_biased_mdps * RadPerMilliDeg / SamplingFrequency;
+		//yaw += dy_biased_mdps * RadPerMilliDeg / SamplingFrequency;
+		vyaw += dy_biased_mdps * RadPerMilliDeg;
 	}
 	else
 	{
@@ -151,7 +157,7 @@ void ReadGyro(void)
 int main(void)
 {
 	// rate in Hz
-	static constexpr int rate = 20;
+	static constexpr int rate = 30;
 	// interval in ms
 	static constexpr double interval = 1.0 / rate;
 
@@ -166,14 +172,33 @@ int main(void)
 	// Initialize ROS
 	nh.initNode();
 
+	//char twist_frame_id[32];
+	//char imu_frame_id[32];
+
+
 	nh.advertise(twist0_pub);
-	nh.advertise(imu0_pub);
+	//nh.advertise(imu0_pub);
+	//while(!nh.connected()) {nh.spinOnce();}
+/*
+	if (!nh.getParam("~twist_frame", reinterpret_cast<char **>(&twist_frame_id)))
+	{
+	     //default values
+		strcpy(twist_frame_id, "base_link");
+	}*/
+	twist0_msg.header.frame_id = "base_link";
+/*
+	if (!nh.getParam("~imu_frame", reinterpret_cast<char **>(&imu_frame_id)))
+	{
+	     //default values
+		strcpy(imu_frame_id, "base_link");
+	}*/
+	//imu0_msg.header.frame_id = "base_link";
 
 	ros::Time last_time = nh.now();
 	ros::Time current_time = last_time;
 
-	twist0_msg.header.frame_id = "twist0_link";
-	imu0_msg.header.frame_id = "imu0_link";
+	//twist0_msg.header.frame_id = "twist0_link";
+	//imu0_msg.header.frame_id = "imu0_link";
 
 	InitGyro();
 
@@ -185,31 +210,29 @@ int main(void)
 	{
 		current_time = nh.now();
 
-		// Send the message every second
 		if(current_time.toSec() - last_time.toSec() > interval)
 		{
-			twist0_msg.header.stamp = current_time;
-			twist0_msg.twist.twist.linear.x = x;
-			twist0_msg.twist.twist.linear.y = y;
+			if(divisor > 0)
+			{
+				twist0_msg.header.stamp = nh.now();
+				twist0_msg.twist.twist.linear.x = vy / divisor;
+				twist0_msg.twist.twist.linear.y = vx / divisor;
+				twist0_msg.twist.twist.angular.z = vyaw / divisor;
 
-			imu0_msg.angular_velocity.z = yaw;
-			//pose_msg.pose.orientation = tf::createQuaternionFromYaw(yaw);
-			//pose_msg.pose.orientation.w = yaw;
+				vx = 0.0;
+				vy = 0.0;
+				vyaw = 0.0;
 
-			//pose_pub.publish(&pose_msg);
+				divisor = 0;
 
-			twist0_pub.publish(&twist0_msg);
-			imu0_pub.publish(&imu0_msg);
+				//imu0_msg.header.stamp = nh.now();
+				//imu0_msg.angular_velocity.z = vyaw;
 
-			//x_msg.data = x;
-			//y_msg.data = y;
-			//yaw_msg.data = yaw;// * 180 / M_PI;
+				//pose_pub.publish(&pose_msg);
 
-			//x_pub.publish(&x_msg);
-			//y_pub.publish(&y_msg);
-			//yaw_pub.publish(&yaw_msg);
-			//txbufcnt_msg.data = Uart::Uart1->Tx_Count();
-			//txbufcnt_pub.publish(&txbufcnt_msg);
+				twist0_pub.publish(&twist0_msg);
+				//imu0_pub.publish(&imu0_msg);
+			}
 
 			last_time = current_time;
 		}
@@ -239,6 +262,8 @@ extern "C" void TIM4_IRQHandler(void)
 
 		ReadEncoders();
 		ReadGyro();
+
+		divisor++;
 
 		GPIOC->BSRR = GPIO_BSRR_BS13;
 

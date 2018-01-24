@@ -15,7 +15,7 @@
 class Uart
 {
 public:
-	static constexpr int BaudRate = 57600;
+	static constexpr int BaudRate = 115200;
 	static constexpr int TxBufSize = 1024;
 	static constexpr int RxBufSize = 512;
 	static UartWithBuffer<USART1_BASE, TxBufSize, RxBufSize> * Uart1;
@@ -82,7 +82,7 @@ class STM32Hardware {
     //}
     STM32Hardware()
     {
-        baud_ = 57600;
+        baud_ = Uart::BaudRate;
         //USART1_Wrapper = new SERIAL_CLASS(baud_);
         __NOP();
         com = (SERIAL_CLASS * const)Uart::Uart1;
