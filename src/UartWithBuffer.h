@@ -139,6 +139,11 @@ public:
 		}
 	}
 
+	inline bool Error(void)
+	{
+		return this->_error;
+	}
+
 private:
 	USART_TypeDef * _usart = nullptr;
 	FIFORingBuffer<uint8_t> * _txBuf = nullptr;

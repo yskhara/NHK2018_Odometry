@@ -8,6 +8,7 @@
 //#include "std_msgs/String.h"
 //#include "std_msgs/UInt32.h"
 //#include "std_msgs/Float32.h"
+#include "std_msgs/Bool.h"
 #include "geometry_msgs/Pose2D.h"
 #include "Timer.h"
 
@@ -25,12 +26,14 @@ ros::NodeHandle nh;
 //std_msgs::Float32 y_msg;
 //std_msgs::Float32 yaw_msg;
 geometry_msgs::Pose2D pose_delta_msg;
+std_msgs::Bool error_msg;
 //std_msgs::UInt32 txbufcnt_msg;
 
 //ros::Publisher x_pub("/x_enc", &x_msg);
 //ros::Publisher y_pub("/y_enc", &y_msg);
 //ros::Publisher yaw_pub("/yaw_imu", &yaw_msg);
 ros::Publisher pose_delta_pub("/nav/pose_delta", &pose_delta_msg);
+ros::Publisher error_pub("/nav/odom/error", &error_msg);
 //ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
 //ros::Publisher orientation_pub("orientation", &orientation_msg);
 
@@ -158,11 +161,8 @@ int main(void)
 
 	// Initialize ROS
 	nh.initNode();
-	//nh.advertise(x_pub);
-	//nh.advertise(y_pub);
-	//nh.advertise(yaw_pub);
 	nh.advertise(pose_delta_pub);
-	//nh.advertise(txbufcnt_pub);
+	nh.advertise(error_pub);
 
 	pose_delta_msg.x = 0;
 	pose_delta_msg.y = 0;
@@ -190,6 +190,9 @@ int main(void)
 
 			pose_delta_pub.publish(&pose_delta_msg);
 
+			error_msg.data = Uart::Uart1->Error();
+			error_pub.publish(&error_msg);
+
 			x = 0;
 			y = 0;
 			yaw = 0;
@@ -200,15 +203,7 @@ int main(void)
 		{
 		}
 
-		//TIM_ITConfig(TIM4, TIM_IT_Update, DISABLE);
-		//NVIC_DisableIRQ(TIM4_IRQn);
-		//NVIC_DisableIRQ(USART1_IRQn);
-		//while(!(USART1->SR & USART_SR_TXE)) ;
-		//while(TIM4->SR & TIM_SR_UIF) { TIM4->SR &= ~TIM_SR_UIF; }
 		nh.spinOnce();
-		//TIM_ITConfig(TIM4, TIM_IT_Update, ENABLE);
-		//NVIC_EnableIRQ(TIM4_IRQn);
-		//NVIC_EnableIRQ(USART1_IRQn);
 	}
 
 	return 0;
