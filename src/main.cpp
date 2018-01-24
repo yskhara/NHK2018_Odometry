@@ -1,20 +1,17 @@
-
 #include <stdio.h>
 #include <stdlib.h>
-#include "diag/Trace.h"
-
 #include <math.h>
 
+#include "diag/Trace.h"
+
 #include "ros.h"
-#include "std_msgs/String.h"
-#include "std_msgs/UInt32.h"
-#include "std_msgs/Float32.h"
-#include "nav_msgs/Odometry.h"
-#include "geometry_msgs/PoseStamped.h"
-#include "geometry_msgs/Quaternion.h"
+//#include "std_msgs/String.h"
+//#include "std_msgs/UInt32.h"
+//#include "std_msgs/Float32.h"
+#include "geometry_msgs/Pose2D.h"
 #include "Timer.h"
 
-#include "tf/tf.h"
+//#include "tf/tf.h"
 
 #include "stm32f10x_conf.h"
 
@@ -27,14 +24,14 @@ ros::NodeHandle nh;
 //std_msgs::Float32 x_msg;
 //std_msgs::Float32 y_msg;
 //std_msgs::Float32 yaw_msg;
-geometry_msgs::PoseStamped pose_msg;
-std_msgs::UInt32 txbufcnt_msg;
+geometry_msgs::Pose2D pose_delta_msg;
+//std_msgs::UInt32 txbufcnt_msg;
 
 //ros::Publisher x_pub("/x_enc", &x_msg);
 //ros::Publisher y_pub("/y_enc", &y_msg);
 //ros::Publisher yaw_pub("/yaw_imu", &yaw_msg);
-ros::Publisher pose_pub("/localization/pose", &pose_msg);
-ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
+ros::Publisher pose_pub("/nav/pose_delta", &pose_delta_msg);
+//ros::Publisher txbufcnt_pub("txbufcnt", &txbufcnt_msg);
 //ros::Publisher orientation_pub("orientation", &orientation_msg);
 
 //char hello[13] = "hello world!";
@@ -55,7 +52,7 @@ static constexpr int32_t SamplingFrequency = 200;
 double x = 0;
 double y = 0;
 // positive for COUNTER-clockwise
-float yaw = 0;
+double yaw = 0;
 
 static int movavg;
 
@@ -105,10 +102,19 @@ bool InitGyro(void)
 void ReadEncoders(void)
 {
 
+<<<<<<< HEAD
 	volatile int16_t _p1 = static_cast<int16_t>(TIM2->CNT);
+=======
+	volatile int16_t _p1, _p2;
+	_p1 = (int16_t)(TIM2->CNT);
+>>>>>>> stash
 	TIM2->CNT = 0;
 
+<<<<<<< HEAD
 	volatile int16_t _p2 = static_cast<int16_t>(TIM3->CNT);
+=======
+	_p2 = -(int16_t)(TIM3->CNT);
+>>>>>>> stash
 	TIM3->CNT = 0;
 
 	// just a simple rotation matrix
