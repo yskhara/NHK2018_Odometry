@@ -104,26 +104,21 @@ bool InitGyro(void)
 
 void ReadEncoders(void)
 {
-	//static volatile uint16_t _i = 0;
 
-	volatile int16_t _p1, _p2;
-	_p1 = (int16_t)(TIM2->CNT);
-	_p2 = -(int16_t)(TIM3->CNT);
-
+	volatile int16_t _p1 = static_cast<int16_t>(TIM2->CNT);
 	TIM2->CNT = 0;
+
+	volatile int16_t _p2 = static_cast<int16_t>(TIM3->CNT);
 	TIM3->CNT = 0;
 
-	//trace_printf("%x, %x, %x", _n[0], _n[1], _n[2]);
-	//trace_printf("%d\n", (int16_t)_n[2]);
-
+	// just a simple rotation matrix
+	// translate encoder rate to x-y plane
 	double _yaw = yaw + (M_PI / 4.0);
 	double _cos = cos(_yaw);
 	double _sin = sin(_yaw);
 
-	//x += ((_px * _cos) - (_py * _sin)) * MmPerPulse;
-	//y += ((_px * _sin) + (_py * _cos)) * MmPerPulse;
-	x += ((_p1 * _cos) - (_p2 * _sin)) * MmPerPulse;
-	y += ((_p1 * _sin) + (_p2 * _cos)) * MmPerPulse;
+	x += ((_p1 * _cos) - (_p2 * _sin)) * MPerSecPerPulse;
+	y += ((_p1 * _sin) + (_p2 * _cos)) * MPerSecPerPulse;
 }
 
 void ReadGyro(void)
@@ -172,7 +167,7 @@ int main(void)
 	//nh.advertise(y_pub);
 	//nh.advertise(yaw_pub);
 	nh.advertise(pose_pub);
-	nh.advertise(txbufcnt_pub);
+	//nh.advertise(txbufcnt_pub);
 
     pose_msg.pose.position.z = 0;
 
