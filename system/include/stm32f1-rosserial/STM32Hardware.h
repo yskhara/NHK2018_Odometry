@@ -8,9 +8,8 @@
 #pragma once
 
 
-#include "../UartWithBuffer.h"
-
 #include "Timer.h"
+#include "UartWithBuffer.h"
 
 namespace {
 	void initUSART1(void)
@@ -46,16 +45,21 @@ namespace {
 	}
 }
 
-using SERIAL_CLASS = UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize>;
+//using SERIAL_CLASS = UartWithBuffer<USART1_BASE, Uart::TxBufSize, Uart::RxBufSize>;
 
 //static SERIAL_CLASS * USART1_Wrapper;
 
+SERIAL_CLASS * const Uart::Uart1 = new SERIAL_CLASS();
+
 extern "C" void USART1_IRQHandler(void)
 {
+	/*
+	 * linker will take care of this
 	if(Uart::Uart1 == nullptr)
 	{
 		return;
 	}
+	 */
 
 	Uart::Uart1->OnInterrupt();
 }
@@ -71,46 +75,42 @@ class STM32Hardware {
     //}
     STM32Hardware()
     {
-        baud_ = 57600;
+        baud_ = Uart::BaudRate;
         //USART1_Wrapper = new SERIAL_CLASS(baud_);
-        __NOP();
+        //__NOP();
         com = (SERIAL_CLASS * const)Uart::Uart1;
 
         initUSART1();
     }
 
-    //STM32Hardware(STM32Hardware& h){
+    //STM32Hardware(STM32Hardware& h)
+    //{
     //  this->baud_ = h.baud_;
     //}
 
-    void setBaud(long baud){
+    void setBaud(long baud)
+    {
       this->baud_= baud;
     }
 
-    int getBaud(){return baud_;}
+    int getBaud()
+    {
+    	return baud_;
+    }
 
-    void init(){
+    void init()
+    {
       //iostream->begin(baud_);
     }
 
     int read()
     {
-    	unsigned char c;
-
-    	if(com->Rx_Dequeue(&c))
-    	{
-    		return static_cast<int>(c);
-    	}
-    	return -1;
+    	return com->Rx_Dequeue();
     }
 
     void write(uint8_t* data, int length)
     {
-    	for(int i = 0; i < length; i++)
-    	{
-    		while( com->Tx_IsFull() );
-    		com->Tx_Enqueue(data[i]);
-    	}
+    	com->Tx_Enqueue(data, length);
     }
 
     unsigned long time()

@@ -219,7 +219,7 @@ namespace ros {
               mode_++;
               last_msg_timeout_time = c_time + MSG_TIMEOUT;
             }
-            else if( hardware_.time() - c_time > (SYNC_SECONDS * 1000)){
+            else if( hardware_.time() - c_time > (SYNC_SECONDS)){
               /* We have been stuck in spinOnce too long, return error */
               configured_=false;
               return -2;

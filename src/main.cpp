@@ -4,12 +4,6 @@
 
 #include "diag/Trace.h"
 
-#include "ros.h"
-//#include "std_msgs/String.h"
-//#include "std_msgs/UInt32.h"
-//#include "std_msgs/Float32.h"
-#include "std_msgs/Bool.h"
-#include "geometry_msgs/Pose2D.h"
 #include "Timer.h"
 
 //#include "tf/tf.h"
@@ -18,6 +12,9 @@
 
 #include "Init.h"
 #include "MPU9250.h"
+#include "geometry_msgs/Pose2D.h"
+#include "ros.h"
+#include "std_msgs/Bool.h"
 
 ros::NodeHandle nh;
 
@@ -44,7 +41,7 @@ MPU9250 *mpu9250 = nullptr;
 #define SPI_MPU9250 (SPI2)
 
 // diameter of wheels in metre
-static constexpr double WheelDiameter = 0.024;
+static constexpr double WheelDiameter = 0.048;
 // pulse/rev
 static constexpr double PulsePerRevolution = 500.0 * 4;
 /// Kpd = 2_pi_r[mm/rev] / Kp[pulse/rev]
@@ -112,7 +109,7 @@ void ReadEncoders(void)
 
 	// just a simple rotation matrix
 	// translate encoder rates to velocity on x-y plane
-	double _yaw = yaw + (M_PI / 4.0);
+	double _yaw = yaw - (M_PI / 4.0);
 	double _cos = cos(_yaw);
 	double _sin = sin(_yaw);
 
@@ -201,9 +198,12 @@ int main(void)
 		}
 		else
 		{
+			GPIOC->BSRR = GPIO_BSRR_BR13;
 		}
 
 		nh.spinOnce();
+
+		GPIOC->BSRR = GPIO_BSRR_BS13;
 	}
 
 	return 0;
@@ -213,12 +213,10 @@ extern "C" void TIM4_IRQHandler(void)
 {
 	if(TIM4->SR & TIM_SR_UIF)
 	{
-		GPIOC->BSRR = GPIO_BSRR_BR13;
 
 		ReadEncoders();
 		ReadGyro();
 
-		GPIOC->BSRR = GPIO_BSRR_BS13;
 
 		TIM4->SR &= ~TIM_SR_UIF;
 	}
